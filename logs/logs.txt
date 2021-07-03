@@ -1,0 +1,3323 @@
+{'env_args': {'env': 'HungryGeese'}, 'train_args': {'turn_based_training': False, 'observation': False, 'gamma': 0.8, 'forward_steps': 32, 'compress_steps': 4, 'entropy_regularization': 0.002, 'entropy_regularization_decay': 0.3, 'update_episodes': 500, 'batch_size': 400, 'minimum_episodes': 100, 'maximum_episodes': 500000, 'epochs': -1, 'num_batchers': 7, 'eval_rate': 0.1, 'worker': {'num_parallel': 1}, 'lambda': 0.7, 'policy_target': 'TD', 'value_target': 'TD', 'eval': {'opponent': ['rulebase', 'random']}, 'seed': 0, 'restart_epoch': 0}, 'worker_args': {'server_address': '', 'num_parallel': 12}}
+Loading environment football failed: No module named 'gfootball'
+waiting training
+started entry server 9999
+started worker server 9998
+started server
+accepted connection from learner-1!
+100 start sender
+start receiver 0
+start receiver 1
+started training
+200 300 400 500 600 
+epoch 0
+time 1625203240.0673726 2021-07-02_13-20-40
+win rate (total) = 0.541 (122.3 / 226)
+win rate (random) = 0.956 (106.2 / 111)
+win rate (rulebase) = 0.141 (16.2 / 115)
+generation stats = 0.000 +- 0.709
+loss = p:-0.041 v:0.350 ent:0.372 total:0.308
+updated model(1)
+700 800 900 1000 1100 
+epoch 1
+time 1625203248.0517771 2021-07-02_13-20-48
+win rate (total) = 0.496 (94.3 / 190)
+win rate (random) = 0.910 (87.3 / 96)
+win rate (rulebase) = 0.074 (7.0 / 94)
+generation stats = 0.000 +- 0.710
+loss = p:-0.043 v:0.238 ent:0.181 total:0.195
+updated model(10)
+1200 accepted connection from worker-1!
+1300 1400 1500 1600 
+epoch 2
+time 1625203252.3432298 2021-07-02_13-20-52
+win rate (total) = 0.524 (79.7 / 152)
+win rate (random) = 0.859 (79.0 / 92)
+win rate (rulebase) = 0.011 (0.7 / 60)
+generation stats = 0.000 +- 0.709
+loss = p:-0.015 v:0.215 ent:0.082 total:0.200
+accepted connection from worker-2!
+updated model(15)
+1700 1800 1900 2000 2100 
+epoch 3
+time 1625203253.963188 2021-07-02_13-20-53
+win rate (total) = 0.517 (66.2 / 128)
+win rate (random) = 0.789 (65.5 / 83)
+win rate (rulebase) = 0.015 (0.7 / 45)
+generation stats = 0.000 +- 0.703
+loss = p:-0.016 v:0.187 ent:0.065 total:0.171
+updated model(17)
+2200 2300 2400 2500 2600 
+epoch 4
+time 1625203255.1908991 2021-07-02_13-20-55
+win rate (total) = 0.684 (86.8 / 127)
+win rate (random) = 0.880 (85.3 / 97)
+win rate (rulebase) = 0.050 (1.5 / 30)
+generation stats = 0.000 +- 0.706
+loss = p:-0.012 v:0.196 ent:0.057 total:0.183
+accepted connection from worker-3!
+updated model(19)
+2700 2800 2900 3000 3100 
+epoch 5
+time 1625203256.660678 2021-07-02_13-20-56
+win rate (total) = 0.604 (64.0 / 106)
+win rate (random) = 0.856 (63.3 / 74)
+win rate (rulebase) = 0.021 (0.7 / 32)
+generation stats = 0.000 +- 0.708
+loss = p:-0.001 v:0.198 ent:0.051 total:0.198
+updated model(21)
+3200 3300 3400 3500 3600 
+epoch 6
+time 1625203258.1394267 2021-07-02_13-20-58
+win rate (total) = 0.679 (64.5 / 95)
+win rate (random) = 0.838 (64.5 / 77)
+win rate (rulebase) = 0.000 (0.0 / 18)
+generation stats = 0.000 +- 0.707
+loss = p:-0.003 v:0.183 ent:0.050 total:0.180
+updated model(23)
+3700 3800 3900 4000 4100 
+epoch 7
+time 1625203259.5921063 2021-07-02_13-20-59
+win rate (total) = 0.724 (73.2 / 101)
+win rate (random) = 0.942 (72.5 / 77)
+win rate (rulebase) = 0.028 (0.7 / 24)
+generation stats = 0.000 +- 0.713
+loss = p:-0.010 v:0.170 ent:0.054 total:0.160
+updated model(25)
+4200 4300 4400 4500 4600 
+epoch 8
+time 1625203261.1641982 2021-07-02_13-21-01
+win rate (total) = 0.689 (71.0 / 103)
+win rate (random) = 0.890 (70.3 / 79)
+win rate (rulebase) = 0.028 (0.7 / 24)
+generation stats = 0.000 +- 0.711
+loss = p:-0.009 v:0.160 ent:0.048 total:0.151
+updated model(27)
+4700 4800 4900 5000 5100 
+epoch 9
+time 1625203262.7789006 2021-07-02_13-21-02
+win rate (total) = 0.701 (68.7 / 98)
+win rate (random) = 0.933 (67.2 / 72)
+win rate (rulebase) = 0.058 (1.5 / 26)
+generation stats = 0.000 +- 0.707
+loss = p:-0.006 v:0.163 ent:0.045 total:0.157
+updated model(29)
+5200 5300 5400 5500 5600 
+epoch 10
+time 1625203264.3280022 2021-07-02_13-21-04
+win rate (total) = 0.723 (74.5 / 103)
+win rate (random) = 0.928 (73.3 / 79)
+win rate (rulebase) = 0.049 (1.2 / 24)
+generation stats = 0.000 +- 0.713
+loss = p:-0.004 v:0.167 ent:0.047 total:0.164
+updated model(31)
+5700 5800 5900 6000 6100 
+epoch 11
+time 1625203265.8660762 2021-07-02_13-21-05
+win rate (total) = 0.712 (71.2 / 100)
+win rate (random) = 0.913 (68.5 / 75)
+win rate (rulebase) = 0.107 (2.7 / 25)
+generation stats = 0.000 +- 0.714
+loss = p:-0.007 v:0.159 ent:0.045 total:0.152
+updated model(33)
+6200 6300 6400 6500 6600 
+epoch 12
+time 1625203267.4399009 2021-07-02_13-21-07
+win rate (total) = 0.795 (79.5 / 100)
+win rate (random) = 0.969 (78.5 / 81)
+win rate (rulebase) = 0.053 (1.0 / 19)
+generation stats = 0.000 +- 0.715
+loss = p:-0.008 v:0.157 ent:0.047 total:0.149
+updated model(35)
+6700 6800 6900 7000 7100 
+epoch 13
+time 1625203269.2167494 2021-07-02_13-21-09
+win rate (total) = 0.691 (74.7 / 108)
+win rate (random) = 0.938 (70.3 / 75)
+win rate (rulebase) = 0.131 (4.3 / 33)
+generation stats = 0.000 +- 0.722
+loss = p:-0.008 v:0.160 ent:0.052 total:0.152
+updated model(37)
+7200 7300 7400 7500 7600 
+epoch 14
+time 1625203270.6447768 2021-07-02_13-21-10
+win rate (total) = 0.728 (81.5 / 112)
+win rate (random) = 0.981 (79.5 / 81)
+win rate (rulebase) = 0.065 (2.0 / 31)
+generation stats = 0.000 +- 0.726
+loss = p:-0.008 v:0.153 ent:0.061 total:0.145
+updated model(39)
+7700 7800 7900 8000 8100 
+epoch 15
+time 1625203272.2683306 2021-07-02_13-21-12
+win rate (total) = 0.687 (73.5 / 107)
+win rate (random) = 0.931 (69.8 / 75)
+win rate (rulebase) = 0.115 (3.7 / 32)
+generation stats = 0.000 +- 0.728
+loss = p:-0.001 v:0.146 ent:0.065 total:0.145
+updated model(41)
+8200 8300 8400 8500 8600 
+epoch 16
+time 1625203274.0515356 2021-07-02_13-21-14
+win rate (total) = 0.613 (69.8 / 114)
+win rate (random) = 0.936 (65.5 / 70)
+win rate (rulebase) = 0.098 (4.3 / 44)
+generation stats = 0.000 +- 0.729
+loss = p:-0.000 v:0.146 ent:0.069 total:0.145
+updated model(43)
+8700 8800 8900 9000 9100 
+epoch 17
+time 1625203275.6886995 2021-07-02_13-21-15
+win rate (total) = 0.554 (67.0 / 121)
+win rate (random) = 0.906 (64.3 / 71)
+win rate (rulebase) = 0.053 (2.7 / 50)
+generation stats = 0.000 +- 0.731
+loss = p:-0.001 v:0.139 ent:0.071 total:0.138
+updated model(45)
+9200 9300 9400 9500 9600 
+epoch 18
+time 1625203277.4545927 2021-07-02_13-21-17
+win rate (total) = 0.631 (84.5 / 134)
+win rate (random) = 0.924 (81.3 / 88)
+win rate (rulebase) = 0.069 (3.2 / 46)
+generation stats = 0.000 +- 0.734
+loss = p:-0.005 v:0.145 ent:0.081 total:0.139
+updated model(48)
+9700 9800 9900 10000 10100 
+epoch 19
+time 1625203280.028758 2021-07-02_13-21-20
+win rate (total) = 0.685 (98.0 / 143)
+win rate (random) = 0.972 (92.3 / 95)
+win rate (rulebase) = 0.118 (5.7 / 48)
+generation stats = 0.000 +- 0.737
+loss = p:-0.006 v:0.136 ent:0.079 total:0.130
+updated model(51)
+10200 10300 10400 10500 10600 
+epoch 20
+time 1625203282.9632957 2021-07-02_13-21-22
+win rate (total) = 0.605 (94.3 / 156)
+win rate (random) = 0.935 (88.8 / 95)
+win rate (rulebase) = 0.090 (5.5 / 61)
+generation stats = 0.000 +- 0.736
+loss = p:-0.004 v:0.129 ent:0.079 total:0.125
+updated model(55)
+10700 10800 10900 11000 11100 
+epoch 21
+time 1625203287.023954 2021-07-02_13-21-27
+win rate (total) = 0.536 (85.8 / 160)
+win rate (random) = 0.943 (80.2 / 85)
+win rate (rulebase) = 0.076 (5.7 / 75)
+generation stats = -0.000 +- 0.722
+loss = p:-0.005 v:0.117 ent:0.076 total:0.112
+updated model(60)
+11200 11300 11400 11500 11600 
+epoch 22
+time 1625203292.8169208 2021-07-02_13-21-32
+win rate (total) = 0.556 (93.3 / 168)
+win rate (random) = 0.961 (90.3 / 94)
+win rate (rulebase) = 0.041 (3.0 / 74)
+generation stats = 0.000 +- 0.678
+loss = p:-0.003 v:0.098 ent:0.070 total:0.095
+updated model(68)
+11700 11800 11900 12000 12100 
+epoch 23
+time 1625203299.5399206 2021-07-02_13-21-39
+win rate (total) = 0.509 (85.5 / 168)
+win rate (random) = 0.958 (79.5 / 83)
+win rate (rulebase) = 0.071 (6.0 / 85)
+generation stats = 0.000 +- 0.618
+loss = p:-0.003 v:0.078 ent:0.072 total:0.075
+updated model(76)
+12200 12300 12400 12500 12600 
+epoch 24
+time 1625203306.4703057 2021-07-02_13-21-46
+win rate (total) = 0.528 (87.7 / 166)
+win rate (random) = 0.924 (81.3 / 88)
+win rate (rulebase) = 0.081 (6.3 / 78)
+generation stats = 0.000 +- 0.592
+loss = p:-0.001 v:0.060 ent:0.079 total:0.058
+updated model(85)
+12700 12800 12900 13000 13100 
+epoch 25
+time 1625203312.8761723 2021-07-02_13-21-52
+win rate (total) = 0.574 (96.5 / 168)
+win rate (random) = 0.948 (93.8 / 99)
+win rate (rulebase) = 0.039 (2.7 / 69)
+generation stats = 0.000 +- 0.566
+loss = p:-0.000 v:0.050 ent:0.092 total:0.049
+updated model(93)
+13200 13300 13400 13500 13600 
+epoch 26
+time 1625203319.5380738 2021-07-02_13-21-59
+win rate (total) = 0.537 (92.3 / 172)
+win rate (random) = 0.945 (86.0 / 91)
+win rate (rulebase) = 0.078 (6.3 / 81)
+generation stats = 0.000 +- 0.600
+loss = p:-0.001 v:0.042 ent:0.106 total:0.041
+updated model(102)
+13700 13800 13900 14000 14100 
+epoch 27
+time 1625203326.527975 2021-07-02_13-22-06
+win rate (total) = 0.547 (89.2 / 163)
+win rate (random) = 0.934 (82.2 / 88)
+win rate (rulebase) = 0.093 (7.0 / 75)
+generation stats = 0.000 +- 0.580
+loss = p:-0.000 v:0.036 ent:0.105 total:0.036
+updated model(110)
+14200 14300 14400 14500 14600 
+epoch 28
+time 1625203333.820756 2021-07-02_13-22-13
+win rate (total) = 0.560 (94.7 / 169)
+win rate (random) = 0.928 (85.3 / 92)
+win rate (rulebase) = 0.121 (9.3 / 77)
+generation stats = 0.000 +- 0.621
+loss = p:0.003 v:0.031 ent:0.254 total:0.033
+updated model(120)
+14700 14800 14900 15000 15100 
+epoch 29
+time 1625203342.7439764 2021-07-02_13-22-22
+win rate (total) = 0.526 (90.0 / 171)
+win rate (random) = 0.920 (80.0 / 87)
+win rate (rulebase) = 0.119 (10.0 / 84)
+generation stats = 0.000 +- 0.697
+loss = p:0.004 v:0.026 ent:0.405 total:0.029
+updated model(131)
+15200 15300 15400 15500 15600 
+epoch 30
+time 1625203352.543119 2021-07-02_13-22-32
+win rate (total) = 0.487 (84.7 / 174)
+win rate (random) = 0.954 (75.3 / 79)
+win rate (rulebase) = 0.098 (9.3 / 95)
+generation stats = 0.000 +- 0.713
+loss = p:0.003 v:0.025 ent:0.394 total:0.028
+updated model(143)
+15700 15800 15900 16000 16100 
+epoch 31
+time 1625203362.739261 2021-07-02_13-22-42
+win rate (total) = 0.444 (77.7 / 175)
+win rate (random) = 0.986 (71.0 / 72)
+win rate (rulebase) = 0.065 (6.7 / 103)
+generation stats = 0.000 +- 0.726
+loss = p:0.003 v:0.022 ent:0.372 total:0.024
+updated model(156)
+16200 16300 16400 16500 16600 
+epoch 32
+time 1625203373.8509881 2021-07-02_13-22-53
+win rate (total) = 0.516 (89.3 / 173)
+win rate (random) = 0.967 (83.2 / 86)
+win rate (rulebase) = 0.071 (6.2 / 87)
+generation stats = 0.000 +- 0.724
+loss = p:0.002 v:0.021 ent:0.352 total:0.023
+updated model(170)
+16700 16800 16900 17000 17100 
+epoch 33
+time 1625203384.014805 2021-07-02_13-23-04
+win rate (total) = 0.587 (99.8 / 170)
+win rate (random) = 0.969 (93.0 / 96)
+win rate (rulebase) = 0.092 (6.8 / 74)
+generation stats = 0.000 +- 0.737
+loss = p:0.003 v:0.019 ent:0.329 total:0.022
+updated model(183)
+17200 17300 17400 17500 17600 
+epoch 34
+time 1625203395.0384827 2021-07-02_13-23-15
+win rate (total) = 0.507 (89.2 / 176)
+win rate (random) = 0.942 (81.0 / 86)
+win rate (rulebase) = 0.091 (8.2 / 90)
+generation stats = 0.000 +- 0.736
+loss = p:0.002 v:0.018 ent:0.321 total:0.020
+updated model(197)
+17700 17800 17900 18000 18100 
+epoch 35
+time 1625203404.2667549 2021-07-02_13-23-24
+win rate (total) = 0.549 (91.2 / 166)
+win rate (random) = 0.956 (83.2 / 87)
+win rate (rulebase) = 0.101 (8.0 / 79)
+generation stats = 0.000 +- 0.743
+loss = p:0.002 v:0.018 ent:0.314 total:0.019
+updated model(208)
+18200 18300 18400 18500 18600 
+epoch 36
+time 1625203414.57145 2021-07-02_13-23-34
+win rate (total) = 0.569 (96.2 / 169)
+win rate (random) = 0.954 (90.7 / 95)
+win rate (rulebase) = 0.074 (5.5 / 74)
+generation stats = 0.000 +- 0.740
+loss = p:0.004 v:0.017 ent:0.337 total:0.020
+updated model(221)
+18700 18800 18900 19000 19100 
+epoch 37
+time 1625203426.3768046 2021-07-02_13-23-46
+win rate (total) = 0.456 (80.3 / 176)
+win rate (random) = 0.956 (71.7 / 75)
+win rate (rulebase) = 0.086 (8.7 / 101)
+generation stats = -0.000 +- 0.738
+loss = p:0.002 v:0.018 ent:0.329 total:0.019
+updated model(236)
+19200 19300 19400 19500 19600 
+epoch 38
+time 1625203439.0399246 2021-07-02_13-23-59
+win rate (total) = 0.474 (83.8 / 177)
+win rate (random) = 0.966 (75.3 / 78)
+win rate (rulebase) = 0.086 (8.5 / 99)
+generation stats = -0.000 +- 0.733
+loss = p:0.001 v:0.017 ent:0.328 total:0.018
+updated model(252)
+19700 19800 19900 20000 20100 
+epoch 39
+time 1625203450.6467407 2021-07-02_13-24-10
+win rate (total) = 0.492 (85.7 / 174)
+win rate (random) = 0.912 (79.3 / 87)
+win rate (rulebase) = 0.073 (6.3 / 87)
+generation stats = -0.000 +- 0.739
+loss = p:0.002 v:0.017 ent:0.291 total:0.018
+updated model(266)
+20200 20300 20400 20500 20600 
+epoch 40
+time 1625203461.2713132 2021-07-02_13-24-21
+win rate (total) = 0.528 (91.8 / 174)
+win rate (random) = 0.953 (87.7 / 92)
+win rate (rulebase) = 0.051 (4.2 / 82)
+generation stats = -0.000 +- 0.741
+loss = p:0.002 v:0.016 ent:0.310 total:0.017
+updated model(279)
+20700 20800 20900 21000 21100 
+epoch 41
+time 1625203472.7919595 2021-07-02_13-24-32
+win rate (total) = 0.489 (85.0 / 174)
+win rate (random) = 0.985 (78.8 / 80)
+win rate (rulebase) = 0.066 (6.2 / 94)
+generation stats = 0.000 +- 0.742
+loss = p:0.002 v:0.015 ent:0.337 total:0.016
+updated model(294)
+21200 21300 21400 21500 21600 
+epoch 42
+time 1625203485.2514699 2021-07-02_13-24-45
+win rate (total) = 0.460 (82.3 / 179)
+win rate (random) = 0.938 (77.8 / 83)
+win rate (rulebase) = 0.047 (4.5 / 96)
+generation stats = -0.000 +- 0.734
+loss = p:0.002 v:0.014 ent:0.343 total:0.015
+updated model(309)
+21700 21800 21900 22000 22100 
+epoch 43
+time 1625203496.3492815 2021-07-02_13-24-56
+win rate (total) = 0.532 (92.0 / 173)
+win rate (random) = 0.974 (87.7 / 90)
+win rate (rulebase) = 0.052 (4.3 / 83)
+generation stats = 0.000 +- 0.742
+loss = p:0.001 v:0.015 ent:0.363 total:0.016
+updated model(323)
+22200 22300 22400 22500 22600 
+epoch 44
+time 1625203505.398976 2021-07-02_13-25-05
+win rate (total) = 0.570 (100.8 / 177)
+win rate (random) = 1.000 (94.0 / 94)
+win rate (rulebase) = 0.082 (6.8 / 83)
+generation stats = 0.000 +- 0.743
+loss = p:0.001 v:0.014 ent:0.360 total:0.015
+updated model(334)
+22700 22800 22900 23000 23100 
+epoch 45
+time 1625203514.3148215 2021-07-02_13-25-14
+win rate (total) = 0.530 (91.7 / 173)
+win rate (random) = 0.977 (85.0 / 87)
+win rate (rulebase) = 0.078 (6.7 / 86)
+generation stats = 0.000 +- 0.744
+loss = p:0.002 v:0.014 ent:0.389 total:0.016
+updated model(345)
+23200 23300 23400 23500 23600 
+epoch 46
+time 1625203521.96902 2021-07-02_13-25-21
+win rate (total) = 0.477 (80.2 / 168)
+win rate (random) = 0.963 (73.2 / 76)
+win rate (rulebase) = 0.076 (7.0 / 92)
+generation stats = 0.000 +- 0.743
+loss = p:0.002 v:0.013 ent:0.371 total:0.014
+updated model(355)
+23700 23800 23900 24000 24100 
+epoch 47
+time 1625203532.7288399 2021-07-02_13-25-32
+win rate (total) = 0.502 (86.3 / 172)
+win rate (random) = 0.921 (79.2 / 86)
+win rate (rulebase) = 0.083 (7.2 / 86)
+generation stats = -0.000 +- 0.740
+loss = p:0.002 v:0.014 ent:0.352 total:0.016
+updated model(368)
+24200 24300 24400 24500 24600 
+epoch 48
+time 1625203541.984135 2021-07-02_13-25-41
+win rate (total) = 0.594 (102.8 / 173)
+win rate (random) = 0.955 (95.5 / 100)
+win rate (rulebase) = 0.100 (7.3 / 73)
+generation stats = -0.000 +- 0.743
+loss = p:0.002 v:0.013 ent:0.394 total:0.014
+updated model(380)
+24700 24800 24900 25000 25100 
+epoch 49
+time 1625203549.5368528 2021-07-02_13-25-49
+win rate (total) = 0.574 (98.2 / 171)
+win rate (random) = 0.973 (89.5 / 92)
+win rate (rulebase) = 0.110 (8.7 / 79)
+generation stats = 0.000 +- 0.743
+loss = p:0.002 v:0.013 ent:0.424 total:0.014
+updated model(389)
+25200 25300 25400 25500 25600 
+epoch 50
+time 1625203556.7862196 2021-07-02_13-25-56
+win rate (total) = 0.520 (89.5 / 172)
+win rate (random) = 0.990 (83.2 / 84)
+win rate (rulebase) = 0.072 (6.3 / 88)
+generation stats = -0.000 +- 0.744
+loss = p:0.001 v:0.012 ent:0.397 total:0.013
+updated model(398)
+25700 25800 25900 26000 26100 
+epoch 51
+time 1625203564.4894676 2021-07-02_13-26-04
+win rate (total) = 0.495 (84.2 / 170)
+win rate (random) = 0.981 (75.5 / 77)
+win rate (rulebase) = 0.093 (8.7 / 93)
+generation stats = 0.000 +- 0.744
+loss = p:0.002 v:0.012 ent:0.420 total:0.014
+updated model(407)
+26200 26300 26400 26500 26600 
+epoch 52
+time 1625203573.179266 2021-07-02_13-26-13
+win rate (total) = 0.494 (85.0 / 172)
+win rate (random) = 0.942 (75.3 / 80)
+win rate (rulebase) = 0.105 (9.7 / 92)
+generation stats = 0.000 +- 0.743
+loss = p:0.001 v:0.012 ent:0.418 total:0.013
+updated model(418)
+26700 26800 26900 27000 27100 
+epoch 53
+time 1625203581.3055513 2021-07-02_13-26-21
+win rate (total) = 0.607 (103.8 / 171)
+win rate (random) = 0.966 (93.7 / 97)
+win rate (rulebase) = 0.137 (10.2 / 74)
+generation stats = 0.000 +- 0.744
+loss = p:-0.001 v:0.013 ent:0.394 total:0.012
+updated model(428)
+27200 27300 27400 27500 27600 
+epoch 54
+time 1625203589.1434174 2021-07-02_13-26-29
+win rate (total) = 0.564 (98.2 / 174)
+win rate (random) = 0.979 (86.2 / 88)
+win rate (rulebase) = 0.140 (12.0 / 86)
+generation stats = 0.000 +- 0.744
+loss = p:0.001 v:0.012 ent:0.381 total:0.013
+updated model(438)
+27700 27800 27900 28000 28100 
+epoch 55
+time 1625203597.3519232 2021-07-02_13-26-37
+win rate (total) = 0.534 (93.0 / 174)
+win rate (random) = 0.964 (84.8 / 88)
+win rate (rulebase) = 0.095 (8.2 / 86)
+generation stats = 0.000 +- 0.744
+loss = p:0.000 v:0.013 ent:0.383 total:0.012
+updated model(448)
+28200 28300 28400 28500 28600 
+epoch 56
+time 1625203605.4318392 2021-07-02_13-26-45
+win rate (total) = 0.527 (90.2 / 171)
+win rate (random) = 0.938 (83.5 / 89)
+win rate (rulebase) = 0.081 (6.7 / 82)
+generation stats = -0.000 +- 0.744
+loss = p:0.002 v:0.012 ent:0.394 total:0.014
+updated model(458)
+28700 28800 28900 29000 29100 
+epoch 57
+time 1625203613.5327575 2021-07-02_13-26-53
+win rate (total) = 0.571 (98.2 / 172)
+win rate (random) = 0.985 (89.7 / 91)
+win rate (rulebase) = 0.105 (8.5 / 81)
+generation stats = 0.000 +- 0.743
+loss = p:0.000 v:0.012 ent:0.383 total:0.012
+updated model(468)
+29200 29300 29400 29500 29600 
+epoch 58
+time 1625203621.6455665 2021-07-02_13-27-01
+win rate (total) = 0.508 (87.3 / 172)
+win rate (random) = 0.970 (76.7 / 79)
+win rate (rulebase) = 0.115 (10.7 / 93)
+generation stats = -0.000 +- 0.744
+loss = p:0.000 v:0.012 ent:0.339 total:0.012
+updated model(478)
+29700 29800 29900 30000 30100 
+epoch 59
+time 1625203629.3602452 2021-07-02_13-27-09
+win rate (total) = 0.597 (99.7 / 167)
+win rate (random) = 0.947 (89.0 / 94)
+win rate (rulebase) = 0.146 (10.7 / 73)
+generation stats = 0.000 +- 0.743
+loss = p:0.000 v:0.012 ent:0.361 total:0.012
+updated model(487)
+30200 30300 30400 30500 30600 
+epoch 60
+time 1625203636.7678797 2021-07-02_13-27-16
+win rate (total) = 0.635 (108.5 / 171)
+win rate (random) = 0.966 (89.8 / 93)
+win rate (rulebase) = 0.239 (18.7 / 78)
+generation stats = 0.000 +- 0.744
+loss = p:0.000 v:0.012 ent:0.365 total:0.012
+updated model(496)
+30700 30800 30900 31000 31100 
+epoch 61
+time 1625203644.359374 2021-07-02_13-27-24
+win rate (total) = 0.630 (104.0 / 165)
+win rate (random) = 0.993 (92.3 / 93)
+win rate (rulebase) = 0.162 (11.7 / 72)
+generation stats = 0.000 +- 0.743
+loss = p:0.001 v:0.012 ent:0.343 total:0.012
+updated model(506)
+31200 31300 31400 31500 31600 
+epoch 62
+time 1625203652.0359647 2021-07-02_13-27-32
+win rate (total) = 0.616 (105.3 / 171)
+win rate (random) = 0.955 (92.7 / 97)
+win rate (rulebase) = 0.171 (12.7 / 74)
+generation stats = 0.000 +- 0.745
+loss = p:0.001 v:0.011 ent:0.332 total:0.011
+updated model(515)
+31700 31800 31900 32000 32100 
+epoch 63
+time 1625203661.6528618 2021-07-02_13-27-41
+win rate (total) = 0.532 (89.8 / 169)
+win rate (random) = 0.953 (77.2 / 81)
+win rate (rulebase) = 0.144 (12.7 / 88)
+generation stats = -0.000 +- 0.742
+loss = p:0.000 v:0.011 ent:0.330 total:0.011
+updated model(527)
+32200 32300 32400 32500 32600 
+epoch 64
+time 1625203669.697988 2021-07-02_13-27-49
+win rate (total) = 0.570 (98.0 / 172)
+win rate (random) = 0.985 (85.7 / 87)
+win rate (rulebase) = 0.145 (12.3 / 85)
+generation stats = 0.000 +- 0.744
+loss = p:0.000 v:0.011 ent:0.326 total:0.011
+updated model(537)
+32700 32800 32900 33000 33100 
+epoch 65
+time 1625203677.121193 2021-07-02_13-27-57
+win rate (total) = 0.630 (107.2 / 170)
+win rate (random) = 0.950 (97.8 / 103)
+win rate (rulebase) = 0.139 (9.3 / 67)
+generation stats = 0.000 +- 0.744
+loss = p:0.000 v:0.011 ent:0.322 total:0.010
+updated model(546)
+33200 33300 33400 33500 33600 
+epoch 66
+time 1625203684.7716286 2021-07-02_13-28-04
+win rate (total) = 0.622 (104.5 / 168)
+win rate (random) = 0.971 (94.2 / 97)
+win rate (rulebase) = 0.146 (10.3 / 71)
+generation stats = 0.000 +- 0.744
+loss = p:0.000 v:0.011 ent:0.293 total:0.010
+updated model(555)
+33700 33800 33900 34000 34100 
+epoch 67
+time 1625203693.9519393 2021-07-02_13-28-13
+win rate (total) = 0.591 (102.2 / 173)
+win rate (random) = 0.950 (88.3 / 93)
+win rate (rulebase) = 0.173 (13.8 / 80)
+generation stats = -0.000 +- 0.743
+loss = p:-0.000 v:0.011 ent:0.299 total:0.010
+updated model(567)
+34200 34300 34400 34500 34600 
+epoch 68
+time 1625203703.011807 2021-07-02_13-28-23
+win rate (total) = 0.574 (96.5 / 168)
+win rate (random) = 0.937 (81.5 / 87)
+win rate (rulebase) = 0.185 (15.0 / 81)
+generation stats = 0.000 +- 0.743
+loss = p:-0.000 v:0.011 ent:0.309 total:0.010
+updated model(578)
+34700 34800 34900 35000 35100 
+epoch 69
+time 1625203711.2548382 2021-07-02_13-28-31
+win rate (total) = 0.559 (93.3 / 167)
+win rate (random) = 0.946 (85.2 / 90)
+win rate (rulebase) = 0.106 (8.2 / 77)
+generation stats = -0.000 +- 0.744
+loss = p:0.000 v:0.011 ent:0.297 total:0.011
+updated model(588)
+35200 35300 35400 35500 35600 
+epoch 70
+time 1625203720.8253665 2021-07-02_13-28-40
+win rate (total) = 0.559 (94.5 / 169)
+win rate (random) = 0.938 (83.5 / 89)
+win rate (rulebase) = 0.138 (11.0 / 80)
+generation stats = -0.000 +- 0.741
+loss = p:0.000 v:0.011 ent:0.314 total:0.011
+updated model(599)
+35700 35800 35900 36000 36100 
+epoch 71
+time 1625203730.437228 2021-07-02_13-28-50
+win rate (total) = 0.566 (98.5 / 174)
+win rate (random) = 0.980 (81.3 / 83)
+win rate (rulebase) = 0.189 (17.2 / 91)
+generation stats = -0.000 +- 0.743
+loss = p:-0.000 v:0.011 ent:0.325 total:0.010
+updated model(611)
+36200 36300 36400 36500 36600 
+epoch 72
+time 1625203738.5647416 2021-07-02_13-28-58
+win rate (total) = 0.631 (107.3 / 170)
+win rate (random) = 0.983 (97.3 / 99)
+win rate (rulebase) = 0.141 (10.0 / 71)
+generation stats = -0.000 +- 0.744
+loss = p:-0.000 v:0.011 ent:0.325 total:0.010
+updated model(621)
+36700 36800 36900 37000 37100 
+epoch 73
+time 1625203746.310355 2021-07-02_13-29-06
+win rate (total) = 0.552 (92.7 / 168)
+win rate (random) = 0.944 (81.2 / 86)
+win rate (rulebase) = 0.140 (11.5 / 82)
+generation stats = -0.000 +- 0.745
+loss = p:-0.001 v:0.011 ent:0.325 total:0.010
+updated model(631)
+37200 37300 37400 37500 37600 
+epoch 74
+time 1625203754.427079 2021-07-02_13-29-14
+win rate (total) = 0.562 (96.2 / 171)
+win rate (random) = 0.977 (84.0 / 86)
+win rate (rulebase) = 0.143 (12.2 / 85)
+generation stats = 0.000 +- 0.744
+loss = p:-0.000 v:0.011 ent:0.313 total:0.010
+updated model(641)
+37700 37800 37900 38000 38100 
+epoch 75
+time 1625203763.4793615 2021-07-02_13-29-23
+win rate (total) = 0.523 (89.5 / 171)
+win rate (random) = 0.991 (73.3 / 74)
+win rate (rulebase) = 0.167 (16.2 / 97)
+generation stats = 0.000 +- 0.744
+loss = p:-0.000 v:0.011 ent:0.299 total:0.011
+updated model(651)
+38200 38300 38400 38500 38600 
+epoch 76
+time 1625203772.351609 2021-07-02_13-29-32
+win rate (total) = 0.556 (96.7 / 174)
+win rate (random) = 0.948 (85.3 / 90)
+win rate (rulebase) = 0.135 (11.3 / 84)
+generation stats = 0.000 +- 0.745
+loss = p:-0.001 v:0.011 ent:0.279 total:0.010
+updated model(662)
+38700 38800 38900 39000 39100 
+epoch 77
+time 1625203780.604879 2021-07-02_13-29-40
+win rate (total) = 0.638 (108.5 / 170)
+win rate (random) = 0.981 (95.2 / 97)
+win rate (rulebase) = 0.183 (13.3 / 73)
+generation stats = -0.000 +- 0.744
+loss = p:-0.001 v:0.011 ent:0.286 total:0.009
+updated model(672)
+39200 39300 39400 39500 39600 
+epoch 78
+time 1625203788.6171691 2021-07-02_13-29-48
+win rate (total) = 0.560 (96.8 / 173)
+win rate (random) = 0.979 (86.2 / 88)
+win rate (rulebase) = 0.125 (10.7 / 85)
+generation stats = 0.000 +- 0.744
+loss = p:-0.001 v:0.011 ent:0.286 total:0.010
+updated model(682)
+39700 39800 39900 40000 40100 
+epoch 79
+time 1625203796.3121612 2021-07-02_13-29-56
+win rate (total) = 0.521 (87.0 / 167)
+win rate (random) = 0.916 (74.2 / 81)
+win rate (rulebase) = 0.149 (12.8 / 86)
+generation stats = 0.000 +- 0.743
+loss = p:0.000 v:0.011 ent:0.257 total:0.011
+updated model(692)
+40200 40300 40400 40500 40600 
+epoch 80
+time 1625203804.639896 2021-07-02_13-30-04
+win rate (total) = 0.633 (108.8 / 172)
+win rate (random) = 0.983 (96.3 / 98)
+win rate (rulebase) = 0.169 (12.5 / 74)
+generation stats = -0.000 +- 0.742
+loss = p:-0.000 v:0.011 ent:0.245 total:0.010
+updated model(702)
+40700 40800 40900 41000 41100 
+epoch 81
+time 1625203813.1063097 2021-07-02_13-30-13
+win rate (total) = 0.653 (110.3 / 169)
+win rate (random) = 0.978 (97.8 / 100)
+win rate (rulebase) = 0.181 (12.5 / 69)
+generation stats = 0.000 +- 0.744
+loss = p:-0.001 v:0.011 ent:0.280 total:0.010
+updated model(712)
+41200 41300 41400 41500 41600 
+epoch 82
+time 1625203822.8787937 2021-07-02_13-30-22
+win rate (total) = 0.630 (110.3 / 175)
+win rate (random) = 0.983 (97.3 / 99)
+win rate (rulebase) = 0.171 (13.0 / 76)
+generation stats = -0.000 +- 0.743
+loss = p:-0.000 v:0.011 ent:0.273 total:0.010
+updated model(724)
+41700 41800 41900 42000 42100 
+epoch 83
+time 1625203832.1612992 2021-07-02_13-30-32
+win rate (total) = 0.614 (102.0 / 166)
+win rate (random) = 0.954 (86.8 / 91)
+win rate (rulebase) = 0.202 (15.2 / 75)
+generation stats = -0.000 +- 0.743
+loss = p:-0.000 v:0.010 ent:0.256 total:0.010
+updated model(735)
+42200 42300 42400 42500 42600 
+epoch 84
+time 1625203841.8640578 2021-07-02_13-30-41
+win rate (total) = 0.641 (111.5 / 174)
+win rate (random) = 0.988 (93.8 / 95)
+win rate (rulebase) = 0.224 (17.7 / 79)
+generation stats = -0.000 +- 0.743
+loss = p:-0.000 v:0.011 ent:0.255 total:0.010
+updated model(747)
+42700 42800 42900 43000 43100 
+epoch 85
+time 1625203853.33207 2021-07-02_13-30-53
+win rate (total) = 0.630 (110.3 / 175)
+win rate (random) = 0.954 (93.5 / 98)
+win rate (rulebase) = 0.219 (16.8 / 77)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.010 ent:0.253 total:0.010
+updated model(761)
+43200 43300 43400 43500 43600 
+epoch 86
+time 1625203864.677895 2021-07-02_13-31-04
+win rate (total) = 0.544 (94.7 / 174)
+win rate (random) = 0.987 (76.0 / 77)
+win rate (rulebase) = 0.192 (18.7 / 97)
+generation stats = -0.000 +- 0.741
+loss = p:0.000 v:0.010 ent:0.260 total:0.010
+updated model(775)
+43700 43800 43900 44000 44100 
+epoch 87
+time 1625203876.164279 2021-07-02_13-31-16
+win rate (total) = 0.614 (107.5 / 175)
+win rate (random) = 0.977 (91.8 / 94)
+win rate (rulebase) = 0.193 (15.7 / 81)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.010 ent:0.256 total:0.010
+updated model(789)
+44200 44300 44400 44500 44600 
+epoch 88
+time 1625203887.7313879 2021-07-02_13-31-27
+win rate (total) = 0.589 (101.3 / 172)
+win rate (random) = 0.944 (85.0 / 90)
+win rate (rulebase) = 0.199 (16.3 / 82)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.011 ent:0.256 total:0.010
+updated model(804)
+44700 44800 44900 45000 45100 
+epoch 89
+time 1625203899.300288 2021-07-02_13-31-39
+win rate (total) = 0.550 (93.0 / 169)
+win rate (random) = 0.960 (76.8 / 80)
+win rate (rulebase) = 0.182 (16.2 / 89)
+generation stats = -0.000 +- 0.742
+loss = p:0.000 v:0.011 ent:0.248 total:0.010
+updated model(818)
+45200 45300 45400 45500 45600 
+epoch 90
+time 1625203911.8368697 2021-07-02_13-31-51
+win rate (total) = 0.610 (106.2 / 174)
+win rate (random) = 0.984 (91.5 / 93)
+win rate (rulebase) = 0.181 (14.7 / 81)
+generation stats = -0.000 +- 0.741
+loss = p:0.000 v:0.010 ent:0.237 total:0.010
+updated model(833)
+45700 45800 45900 46000 46100 
+epoch 91
+time 1625203923.1126885 2021-07-02_13-32-03
+win rate (total) = 0.537 (91.3 / 170)
+win rate (random) = 0.958 (76.7 / 80)
+win rate (rulebase) = 0.163 (14.7 / 90)
+generation stats = 0.000 +- 0.743
+loss = p:-0.000 v:0.010 ent:0.255 total:0.010
+updated model(847)
+46200 46300 46400 46500 46600 
+epoch 92
+time 1625203934.8921728 2021-07-02_13-32-14
+win rate (total) = 0.556 (97.3 / 175)
+win rate (random) = 0.956 (80.3 / 84)
+win rate (rulebase) = 0.187 (17.0 / 91)
+generation stats = -0.000 +- 0.741
+loss = p:-0.001 v:0.010 ent:0.232 total:0.009
+updated model(861)
+46700 46800 46900 47000 47100 
+epoch 93
+time 1625203947.483742 2021-07-02_13-32-27
+win rate (total) = 0.642 (111.7 / 174)
+win rate (random) = 0.971 (95.2 / 98)
+win rate (rulebase) = 0.217 (16.5 / 76)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.010 ent:0.222 total:0.009
+updated model(877)
+47200 47300 47400 47500 47600 
+epoch 94
+time 1625203959.3759177 2021-07-02_13-32-39
+win rate (total) = 0.606 (106.0 / 175)
+win rate (random) = 0.953 (91.5 / 96)
+win rate (rulebase) = 0.184 (14.5 / 79)
+generation stats = 0.000 +- 0.742
+loss = p:-0.000 v:0.010 ent:0.251 total:0.009
+updated model(891)
+47700 47800 47900 48000 48100 
+epoch 95
+time 1625203971.3127623 2021-07-02_13-32-51
+win rate (total) = 0.601 (105.2 / 175)
+win rate (random) = 1.000 (88.0 / 88)
+win rate (rulebase) = 0.197 (17.2 / 87)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.010 ent:0.217 total:0.010
+updated model(906)
+48200 48300 48400 48500 48600 
+epoch 96
+time 1625203984.9973533 2021-07-02_13-33-04
+win rate (total) = 0.577 (99.8 / 173)
+win rate (random) = 0.960 (84.5 / 88)
+win rate (rulebase) = 0.180 (15.3 / 85)
+generation stats = -0.000 +- 0.732
+loss = p:-0.000 v:0.010 ent:0.190 total:0.009
+updated model(923)
+48700 48800 48900 49000 49100 
+epoch 97
+time 1625203997.2608192 2021-07-02_13-33-17
+win rate (total) = 0.536 (95.3 / 178)
+win rate (random) = 0.926 (76.8 / 83)
+win rate (rulebase) = 0.195 (18.5 / 95)
+generation stats = 0.000 +- 0.738
+loss = p:0.000 v:0.010 ent:0.215 total:0.010
+updated model(938)
+49200 49300 49400 49500 49600 
+epoch 98
+time 1625204008.4032862 2021-07-02_13-33-28
+win rate (total) = 0.566 (96.8 / 171)
+win rate (random) = 0.931 (83.8 / 90)
+win rate (rulebase) = 0.160 (13.0 / 81)
+generation stats = -0.000 +- 0.742
+loss = p:-0.001 v:0.010 ent:0.233 total:0.009
+updated model(951)
+49700 49800 49900 50000 50100 
+epoch 99
+time 1625204019.834858 2021-07-02_13-33-39
+win rate (total) = 0.477 (84.5 / 177)
+win rate (random) = 0.953 (67.7 / 71)
+win rate (rulebase) = 0.159 (16.8 / 106)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.010 ent:0.209 total:0.010
+updated model(965)
+50200 50300 50400 50500 50600 
+epoch 100
+time 1625204031.511571 2021-07-02_13-33-51
+win rate (total) = 0.600 (104.3 / 174)
+win rate (random) = 0.969 (94.0 / 97)
+win rate (rulebase) = 0.134 (10.3 / 77)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.010 ent:0.214 total:0.009
+updated model(980)
+50700 50800 50900 51000 51100 
+epoch 101
+time 1625204045.744794 2021-07-02_13-34-05
+win rate (total) = 0.623 (110.3 / 177)
+win rate (random) = 0.974 (99.3 / 102)
+win rate (rulebase) = 0.147 (11.0 / 75)
+generation stats = -0.000 +- 0.726
+loss = p:-0.000 v:0.010 ent:0.214 total:0.009
+updated model(997)
+51200 51300 51400 51500 51600 
+epoch 102
+time 1625204057.1156323 2021-07-02_13-34-17
+win rate (total) = 0.566 (100.2 / 177)
+win rate (random) = 0.969 (82.3 / 85)
+win rate (rulebase) = 0.194 (17.8 / 92)
+generation stats = 0.000 +- 0.740
+loss = p:-0.001 v:0.010 ent:0.213 total:0.009
+updated model(1011)
+51700 51800 51900 52000 52100 
+epoch 103
+time 1625204068.3630116 2021-07-02_13-34-28
+win rate (total) = 0.567 (95.3 / 168)
+win rate (random) = 0.977 (78.2 / 80)
+win rate (rulebase) = 0.195 (17.2 / 88)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.010 ent:0.235 total:0.009
+updated model(1025)
+52200 52300 52400 52500 52600 
+epoch 104
+time 1625204079.2573092 2021-07-02_13-34-39
+win rate (total) = 0.606 (104.8 / 173)
+win rate (random) = 0.951 (93.2 / 98)
+win rate (rulebase) = 0.156 (11.7 / 75)
+generation stats = -0.000 +- 0.741
+loss = p:-0.001 v:0.010 ent:0.236 total:0.008
+updated model(1038)
+52700 52800 52900 53000 53100 
+epoch 105
+time 1625204090.231563 2021-07-02_13-34-50
+win rate (total) = 0.601 (102.2 / 170)
+win rate (random) = 0.943 (91.5 / 97)
+win rate (rulebase) = 0.146 (10.7 / 73)
+generation stats = -0.000 +- 0.741
+loss = p:0.000 v:0.010 ent:0.227 total:0.010
+updated model(1051)
+53200 53300 53400 53500 53600 
+epoch 106
+time 1625204100.754017 2021-07-02_13-35-00
+win rate (total) = 0.559 (96.2 / 172)
+win rate (random) = 0.990 (81.2 / 82)
+win rate (rulebase) = 0.167 (15.0 / 90)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.010 ent:0.222 total:0.009
+updated model(1064)
+53700 53800 53900 54000 54100 
+epoch 107
+time 1625204111.9515433 2021-07-02_13-35-11
+win rate (total) = 0.570 (99.2 / 174)
+win rate (random) = 0.971 (89.3 / 92)
+win rate (rulebase) = 0.120 (9.8 / 82)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.222 total:0.009
+updated model(1078)
+54200 54300 54400 54500 54600 
+epoch 108
+time 1625204122.7238898 2021-07-02_13-35-22
+win rate (total) = 0.561 (98.7 / 176)
+win rate (random) = 0.956 (86.0 / 90)
+win rate (rulebase) = 0.147 (12.7 / 86)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.010 ent:0.217 total:0.009
+updated model(1091)
+54700 54800 54900 55000 55100 
+epoch 109
+time 1625204133.6413395 2021-07-02_13-35-33
+win rate (total) = 0.559 (93.8 / 168)
+win rate (random) = 0.942 (81.0 / 86)
+win rate (rulebase) = 0.157 (12.8 / 82)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.010 ent:0.224 total:0.009
+updated model(1105)
+55200 55300 55400 55500 55600 
+epoch 110
+time 1625204145.0579503 2021-07-02_13-35-45
+win rate (total) = 0.533 (93.3 / 175)
+win rate (random) = 0.960 (83.5 / 87)
+win rate (rulebase) = 0.112 (9.8 / 88)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.212 total:0.009
+updated model(1119)
+55700 55800 55900 56000 56100 
+epoch 111
+time 1625204157.7567804 2021-07-02_13-35-57
+win rate (total) = 0.580 (97.5 / 168)
+win rate (random) = 0.974 (87.7 / 90)
+win rate (rulebase) = 0.126 (9.8 / 78)
+generation stats = -0.000 +- 0.735
+loss = p:-0.000 v:0.010 ent:0.220 total:0.009
+updated model(1134)
+56200 56300 56400 56500 56600 
+epoch 112
+time 1625204168.407091 2021-07-02_13-36-08
+win rate (total) = 0.604 (106.3 / 176)
+win rate (random) = 0.973 (94.3 / 97)
+win rate (rulebase) = 0.152 (12.0 / 79)
+generation stats = 0.000 +- 0.742
+loss = p:-0.000 v:0.010 ent:0.217 total:0.009
+updated model(1147)
+56700 56800 56900 57000 57100 
+epoch 113
+time 1625204179.1326978 2021-07-02_13-36-19
+win rate (total) = 0.555 (93.8 / 169)
+win rate (random) = 0.949 (84.5 / 89)
+win rate (rulebase) = 0.117 (9.3 / 80)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.010 ent:0.214 total:0.009
+updated model(1161)
+57200 57300 57400 57500 57600 
+epoch 114
+time 1625204189.141138 2021-07-02_13-36-29
+win rate (total) = 0.481 (83.2 / 173)
+win rate (random) = 0.975 (72.2 / 74)
+win rate (rulebase) = 0.111 (11.0 / 99)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.223 total:0.009
+updated model(1173)
+57700 57800 57900 58000 58100 
+epoch 115
+time 1625204199.892123 2021-07-02_13-36-39
+win rate (total) = 0.556 (96.7 / 174)
+win rate (random) = 0.949 (87.3 / 92)
+win rate (rulebase) = 0.114 (9.3 / 82)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.216 total:0.009
+updated model(1186)
+58200 58300 58400 58500 58600 
+epoch 116
+time 1625204210.9080997 2021-07-02_13-36-50
+win rate (total) = 0.557 (96.3 / 173)
+win rate (random) = 0.923 (89.5 / 97)
+win rate (rulebase) = 0.090 (6.8 / 76)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.010 ent:0.214 total:0.009
+updated model(1200)
+58700 58800 58900 59000 59100 
+epoch 117
+time 1625204222.3493936 2021-07-02_13-37-02
+win rate (total) = 0.605 (107.0 / 177)
+win rate (random) = 0.980 (91.2 / 93)
+win rate (rulebase) = 0.188 (15.8 / 84)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.009 ent:0.206 total:0.008
+updated model(1214)
+59200 59300 59400 59500 59600 
+epoch 118
+time 1625204233.3401732 2021-07-02_13-37-13
+win rate (total) = 0.526 (91.0 / 173)
+win rate (random) = 0.947 (76.7 / 81)
+win rate (rulebase) = 0.156 (14.3 / 92)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.227 total:0.008
+updated model(1227)
+59700 59800 59900 60000 60100 
+epoch 119
+time 1625204244.586768 2021-07-02_13-37-24
+win rate (total) = 0.526 (90.5 / 172)
+win rate (random) = 0.925 (77.7 / 84)
+win rate (rulebase) = 0.146 (12.8 / 88)
+generation stats = -0.000 +- 0.739
+loss = p:0.000 v:0.010 ent:0.220 total:0.009
+updated model(1241)
+60200 60300 60400 60500 60600 
+epoch 120
+time 1625204255.4408984 2021-07-02_13-37-35
+win rate (total) = 0.614 (106.8 / 174)
+win rate (random) = 0.953 (97.2 / 102)
+win rate (rulebase) = 0.134 (9.7 / 72)
+generation stats = -0.000 +- 0.740
+loss = p:-0.001 v:0.009 ent:0.213 total:0.008
+updated model(1253)
+60700 60800 60900 61000 61100 
+epoch 121
+time 1625204266.5193992 2021-07-02_13-37-46
+win rate (total) = 0.588 (102.3 / 174)
+win rate (random) = 0.968 (91.0 / 94)
+win rate (rulebase) = 0.142 (11.3 / 80)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.010 ent:0.209 total:0.009
+updated model(1267)
+61200 61300 61400 61500 61600 
+epoch 122
+time 1625204277.8812604 2021-07-02_13-37-57
+win rate (total) = 0.558 (97.2 / 174)
+win rate (random) = 0.970 (87.3 / 90)
+win rate (rulebase) = 0.117 (9.8 / 84)
+generation stats = -0.000 +- 0.740
+loss = p:0.000 v:0.009 ent:0.216 total:0.009
+updated model(1281)
+61700 61800 61900 62000 62100 
+epoch 123
+time 1625204288.539934 2021-07-02_13-38-08
+win rate (total) = 0.653 (115.5 / 177)
+win rate (random) = 0.955 (102.2 / 107)
+win rate (rulebase) = 0.190 (13.3 / 70)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.009 ent:0.214 total:0.008
+updated model(1294)
+62200 62300 62400 62500 62600 
+epoch 124
+time 1625204298.815148 2021-07-02_13-38-18
+win rate (total) = 0.597 (100.8 / 169)
+win rate (random) = 0.975 (85.8 / 88)
+win rate (rulebase) = 0.185 (15.0 / 81)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.205 total:0.009
+updated model(1306)
+62700 62800 62900 63000 63100 
+epoch 125
+time 1625204309.909235 2021-07-02_13-38-29
+win rate (total) = 0.559 (96.7 / 173)
+win rate (random) = 0.946 (84.2 / 89)
+win rate (rulebase) = 0.149 (12.5 / 84)
+generation stats = -0.000 +- 0.742
+loss = p:-0.000 v:0.009 ent:0.221 total:0.008
+updated model(1320)
+63200 63300 63400 63500 63600 
+epoch 126
+time 1625204321.1716042 2021-07-02_13-38-41
+win rate (total) = 0.545 (94.8 / 174)
+win rate (random) = 0.962 (83.7 / 87)
+win rate (rulebase) = 0.128 (11.2 / 87)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.009 ent:0.185 total:0.008
+updated model(1334)
+63700 63800 63900 64000 64100 
+epoch 127
+time 1625204331.7356875 2021-07-02_13-38-51
+win rate (total) = 0.582 (100.2 / 172)
+win rate (random) = 0.966 (88.8 / 92)
+win rate (rulebase) = 0.142 (11.3 / 80)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.194 total:0.009
+updated model(1347)
+64200 64300 64400 64500 64600 
+epoch 128
+time 1625204342.4527128 2021-07-02_13-39-02
+win rate (total) = 0.491 (85.0 / 173)
+win rate (random) = 0.948 (75.8 / 80)
+win rate (rulebase) = 0.099 (9.2 / 93)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.009 ent:0.199 total:0.009
+updated model(1360)
+64700 64800 64900 65000 65100 
+epoch 129
+time 1625204351.7359147 2021-07-02_13-39-11
+win rate (total) = 0.513 (89.3 / 174)
+win rate (random) = 0.928 (73.3 / 79)
+win rate (rulebase) = 0.168 (16.0 / 95)
+generation stats = 0.000 +- 0.735
+loss = p:-0.001 v:0.009 ent:0.205 total:0.008
+updated model(1371)
+65200 65300 65400 65500 65600 
+epoch 130
+time 1625204361.9283583 2021-07-02_13-39-21
+win rate (total) = 0.610 (106.7 / 175)
+win rate (random) = 0.956 (94.7 / 99)
+win rate (rulebase) = 0.158 (12.0 / 76)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.188 total:0.009
+updated model(1384)
+65700 65800 65900 66000 66100 
+epoch 131
+time 1625204371.3773174 2021-07-02_13-39-31
+win rate (total) = 0.525 (91.3 / 174)
+win rate (random) = 0.916 (77.8 / 85)
+win rate (rulebase) = 0.152 (13.5 / 89)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.009 ent:0.198 total:0.008
+updated model(1395)
+66200 66300 66400 66500 66600 
+epoch 132
+time 1625204382.2890286 2021-07-02_13-39-42
+win rate (total) = 0.638 (112.3 / 176)
+win rate (random) = 0.955 (102.2 / 107)
+win rate (rulebase) = 0.147 (10.2 / 69)
+generation stats = -0.000 +- 0.739
+loss = p:-0.001 v:0.009 ent:0.208 total:0.008
+updated model(1409)
+66700 66800 66900 67000 67100 
+epoch 133
+time 1625204392.0444927 2021-07-02_13-39-52
+win rate (total) = 0.479 (82.8 / 173)
+win rate (random) = 0.950 (73.2 / 77)
+win rate (rulebase) = 0.101 (9.7 / 96)
+generation stats = -0.000 +- 0.742
+loss = p:-0.001 v:0.009 ent:0.205 total:0.008
+updated model(1421)
+67200 67300 67400 67500 67600 
+epoch 134
+time 1625204400.2879488 2021-07-02_13-40-00
+win rate (total) = 0.548 (93.2 / 170)
+win rate (random) = 0.966 (86.0 / 89)
+win rate (rulebase) = 0.088 (7.2 / 81)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.203 total:0.009
+updated model(1431)
+67700 67800 67900 68000 68100 
+epoch 135
+time 1625204409.099879 2021-07-02_13-40-09
+win rate (total) = 0.531 (91.3 / 172)
+win rate (random) = 0.965 (82.0 / 85)
+win rate (rulebase) = 0.107 (9.3 / 87)
+generation stats = 0.000 +- 0.741
+loss = p:-0.001 v:0.009 ent:0.203 total:0.008
+updated model(1442)
+68200 68300 68400 68500 68600 
+epoch 136
+time 1625204420.1439102 2021-07-02_13-40-20
+win rate (total) = 0.532 (93.2 / 175)
+win rate (random) = 0.969 (83.3 / 86)
+win rate (rulebase) = 0.110 (9.8 / 89)
+generation stats = -0.000 +- 0.735
+loss = p:-0.001 v:0.009 ent:0.202 total:0.008
+updated model(1455)
+68700 68800 68900 69000 69100 
+epoch 137
+time 1625204430.396343 2021-07-02_13-40-30
+win rate (total) = 0.570 (96.3 / 169)
+win rate (random) = 0.987 (85.8 / 87)
+win rate (rulebase) = 0.128 (10.5 / 82)
+generation stats = 0.000 +- 0.739
+loss = p:0.000 v:0.009 ent:0.193 total:0.009
+updated model(1468)
+69200 69300 69400 69500 69600 
+epoch 138
+time 1625204440.056584 2021-07-02_13-40-40
+win rate (total) = 0.519 (88.8 / 171)
+win rate (random) = 0.959 (77.7 / 81)
+win rate (rulebase) = 0.124 (11.2 / 90)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.185 total:0.008
+updated model(1479)
+69700 69800 69900 70000 70100 
+epoch 139
+time 1625204450.2789457 2021-07-02_13-40-50
+win rate (total) = 0.579 (99.0 / 171)
+win rate (random) = 0.960 (87.3 / 91)
+win rate (rulebase) = 0.146 (11.7 / 80)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.009 ent:0.199 total:0.009
+updated model(1491)
+70200 70300 70400 70500 70600 
+epoch 140
+time 1625204459.797204 2021-07-02_13-40-59
+win rate (total) = 0.514 (88.3 / 172)
+win rate (random) = 0.967 (79.3 / 82)
+win rate (rulebase) = 0.100 (9.0 / 90)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.222 total:0.008
+updated model(1503)
+70700 70800 70900 71000 71100 
+epoch 141
+time 1625204468.8696187 2021-07-02_13-41-08
+win rate (total) = 0.511 (86.8 / 170)
+win rate (random) = 0.993 (73.5 / 74)
+win rate (rulebase) = 0.139 (13.3 / 96)
+generation stats = -0.000 +- 0.741
+loss = p:-0.001 v:0.009 ent:0.220 total:0.008
+updated model(1514)
+71200 71300 71400 71500 71600 
+epoch 142
+time 1625204478.801227 2021-07-02_13-41-18
+win rate (total) = 0.467 (81.7 / 175)
+win rate (random) = 0.933 (71.8 / 77)
+win rate (rulebase) = 0.100 (9.8 / 98)
+generation stats = 0.000 +- 0.733
+loss = p:-0.000 v:0.009 ent:0.201 total:0.009
+updated model(1526)
+71700 71800 71900 72000 72100 
+epoch 143
+time 1625204488.5254092 2021-07-02_13-41-28
+win rate (total) = 0.516 (87.7 / 170)
+win rate (random) = 0.929 (79.0 / 85)
+win rate (rulebase) = 0.102 (8.7 / 85)
+generation stats = 0.000 +- 0.741
+loss = p:-0.000 v:0.009 ent:0.197 total:0.008
+updated model(1538)
+72200 72300 72400 72500 72600 
+epoch 144
+time 1625204497.3640008 2021-07-02_13-41-37
+win rate (total) = 0.532 (90.5 / 170)
+win rate (random) = 0.969 (82.3 / 85)
+win rate (rulebase) = 0.096 (8.2 / 85)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.223 total:0.008
+updated model(1549)
+72700 72800 72900 73000 73100 
+epoch 145
+time 1625204507.113987 2021-07-02_13-41-47
+win rate (total) = 0.482 (84.3 / 175)
+win rate (random) = 0.929 (71.5 / 77)
+win rate (rulebase) = 0.131 (12.8 / 98)
+generation stats = -0.000 +- 0.741
+loss = p:-0.001 v:0.009 ent:0.215 total:0.008
+updated model(1561)
+73200 73300 73400 73500 73600 
+epoch 146
+time 1625204516.0919635 2021-07-02_13-41-56
+win rate (total) = 0.578 (96.0 / 166)
+win rate (random) = 0.914 (83.2 / 91)
+win rate (rulebase) = 0.171 (12.8 / 75)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.210 total:0.008
+updated model(1572)
+73700 73800 73900 74000 74100 
+epoch 147
+time 1625204524.678427 2021-07-02_13-42-04
+win rate (total) = 0.536 (90.0 / 168)
+win rate (random) = 0.944 (78.3 / 83)
+win rate (rulebase) = 0.137 (11.7 / 85)
+generation stats = 0.000 +- 0.739
+loss = p:-0.001 v:0.008 ent:0.217 total:0.007
+updated model(1583)
+74200 74300 74400 74500 74600 
+epoch 148
+time 1625204534.8368258 2021-07-02_13-42-14
+win rate (total) = 0.609 (104.7 / 172)
+win rate (random) = 0.981 (94.2 / 96)
+win rate (rulebase) = 0.138 (10.5 / 76)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.212 total:0.008
+updated model(1595)
+74700 74800 74900 75000 75100 
+epoch 149
+time 1625204544.8128552 2021-07-02_13-42-24
+win rate (total) = 0.596 (102.0 / 171)
+win rate (random) = 0.950 (92.2 / 97)
+win rate (rulebase) = 0.133 (9.8 / 74)
+generation stats = 0.000 +- 0.742
+loss = p:0.000 v:0.009 ent:0.216 total:0.009
+updated model(1607)
+75200 75300 75400 75500 75600 
+epoch 150
+time 1625204554.2839782 2021-07-02_13-42-34
+win rate (total) = 0.548 (93.7 / 171)
+win rate (random) = 0.949 (80.7 / 85)
+win rate (rulebase) = 0.151 (13.0 / 86)
+generation stats = -0.000 +- 0.740
+loss = p:-0.001 v:0.008 ent:0.199 total:0.008
+updated model(1619)
+75700 75800 75900 76000 76100 
+epoch 151
+time 1625204563.690356 2021-07-02_13-42-43
+win rate (total) = 0.570 (97.5 / 171)
+win rate (random) = 0.983 (87.5 / 89)
+win rate (rulebase) = 0.122 (10.0 / 82)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.194 total:0.008
+updated model(1631)
+76200 76300 76400 76500 76600 
+epoch 152
+time 1625204571.9579442 2021-07-02_13-42-51
+win rate (total) = 0.562 (95.5 / 170)
+win rate (random) = 0.979 (87.2 / 89)
+win rate (rulebase) = 0.103 (8.3 / 81)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.009 ent:0.206 total:0.008
+updated model(1641)
+76700 76800 76900 77000 77100 
+epoch 153
+time 1625204580.8568356 2021-07-02_13-43-00
+win rate (total) = 0.628 (108.0 / 172)
+win rate (random) = 0.969 (95.0 / 98)
+win rate (rulebase) = 0.176 (13.0 / 74)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.198 total:0.008
+updated model(1652)
+77200 77300 77400 77500 77600 
+epoch 154
+time 1625204588.691609 2021-07-02_13-43-08
+win rate (total) = 0.558 (93.7 / 168)
+win rate (random) = 0.955 (84.0 / 88)
+win rate (rulebase) = 0.121 (9.7 / 80)
+generation stats = 0.000 +- 0.740
+loss = p:-0.001 v:0.008 ent:0.216 total:0.007
+updated model(1661)
+77700 77800 77900 78000 78100 
+epoch 155
+time 1625204597.221457 2021-07-02_13-43-17
+win rate (total) = 0.553 (92.8 / 168)
+win rate (random) = 0.970 (81.5 / 84)
+win rate (rulebase) = 0.135 (11.3 / 84)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.009 ent:0.198 total:0.008
+updated model(1672)
+78200 78300 78400 78500 78600 
+epoch 156
+time 1625204606.5208378 2021-07-02_13-43-26
+win rate (total) = 0.571 (98.2 / 172)
+win rate (random) = 0.952 (88.5 / 93)
+win rate (rulebase) = 0.122 (9.7 / 79)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.185 total:0.008
+updated model(1683)
+78700 78800 78900 79000 79100 
+epoch 157
+time 1625204614.8332179 2021-07-02_13-43-34
+win rate (total) = 0.542 (91.0 / 168)
+win rate (random) = 0.957 (81.3 / 85)
+win rate (rulebase) = 0.116 (9.7 / 83)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.206 total:0.008
+updated model(1693)
+79200 79300 79400 79500 79600 
+epoch 158
+time 1625204622.944726 2021-07-02_13-43-42
+win rate (total) = 0.492 (80.2 / 163)
+win rate (random) = 0.953 (70.5 / 74)
+win rate (rulebase) = 0.109 (9.7 / 89)
+generation stats = 0.000 +- 0.743
+loss = p:-0.000 v:0.009 ent:0.204 total:0.008
+updated model(1703)
+79700 79800 79900 80000 80100 
+epoch 159
+time 1625204632.4289167 2021-07-02_13-43-52
+win rate (total) = 0.555 (94.3 / 170)
+win rate (random) = 0.932 (84.8 / 91)
+win rate (rulebase) = 0.120 (9.5 / 79)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.181 total:0.008
+updated model(1715)
+80200 80300 80400 80500 80600 
+epoch 160
+time 1625204642.4311676 2021-07-02_13-44-02
+win rate (total) = 0.600 (104.3 / 174)
+win rate (random) = 0.970 (92.2 / 95)
+win rate (rulebase) = 0.154 (12.2 / 79)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.186 total:0.008
+updated model(1727)
+80700 80800 80900 81000 81100 
+epoch 161
+time 1625204652.0510457 2021-07-02_13-44-12
+win rate (total) = 0.560 (97.5 / 174)
+win rate (random) = 0.944 (85.0 / 90)
+win rate (rulebase) = 0.149 (12.5 / 84)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.189 total:0.008
+updated model(1738)
+81200 81300 81400 81500 81600 
+epoch 162
+time 1625204661.7268832 2021-07-02_13-44-21
+win rate (total) = 0.573 (98.0 / 171)
+win rate (random) = 0.986 (84.8 / 86)
+win rate (rulebase) = 0.155 (13.2 / 85)
+generation stats = 0.000 +- 0.740
+loss = p:0.000 v:0.009 ent:0.182 total:0.009
+updated model(1750)
+81700 81800 81900 82000 82100 
+epoch 163
+time 1625204672.0798748 2021-07-02_13-44-32
+win rate (total) = 0.523 (90.0 / 172)
+win rate (random) = 0.964 (81.0 / 84)
+win rate (rulebase) = 0.102 (9.0 / 88)
+generation stats = -0.000 +- 0.734
+loss = p:-0.001 v:0.009 ent:0.189 total:0.008
+updated model(1763)
+82200 82300 82400 82500 82600 
+epoch 164
+time 1625204681.5988107 2021-07-02_13-44-41
+win rate (total) = 0.488 (84.0 / 172)
+win rate (random) = 0.930 (73.5 / 79)
+win rate (rulebase) = 0.113 (10.5 / 93)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.009 ent:0.184 total:0.008
+updated model(1774)
+82700 82800 82900 83000 83100 
+epoch 165
+time 1625204691.1113355 2021-07-02_13-44-51
+win rate (total) = 0.554 (94.2 / 170)
+win rate (random) = 0.946 (81.3 / 86)
+win rate (rulebase) = 0.153 (12.8 / 84)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.195 total:0.008
+updated model(1786)
+83200 83300 83400 83500 83600 
+epoch 166
+time 1625204700.5974033 2021-07-02_13-45-00
+win rate (total) = 0.574 (99.8 / 174)
+win rate (random) = 0.963 (87.7 / 91)
+win rate (rulebase) = 0.147 (12.2 / 83)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.202 total:0.008
+updated model(1797)
+83700 83800 83900 84000 84100 
+epoch 167
+time 1625204711.2452378 2021-07-02_13-45-11
+win rate (total) = 0.610 (105.0 / 172)
+win rate (random) = 0.965 (96.5 / 100)
+win rate (rulebase) = 0.118 (8.5 / 72)
+generation stats = -0.000 +- 0.739
+loss = p:-0.001 v:0.008 ent:0.194 total:0.007
+updated model(1810)
+84200 disconnected
+disconnected
+disconnected
+disconnected
+84300 accepted connection from worker-1!
+84400 84500 84600 
+epoch 168
+time 1625204721.5111473 2021-07-02_13-45-21
+win rate (total) = 0.568 (93.2 / 164)
+win rate (random) = 0.966 (81.2 / 84)
+win rate (rulebase) = 0.150 (12.0 / 80)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.009 ent:0.184 total:0.008
+updated model(1823)
+84700 84800 84900 85000 85100 
+epoch 169
+time 1625204732.155951 2021-07-02_13-45-32
+win rate (total) = 0.512 (89.7 / 175)
+win rate (random) = 0.900 (81.0 / 90)
+win rate (rulebase) = 0.102 (8.7 / 85)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.188 total:0.008
+updated model(1836)
+85200 85300 85400 85500 85600 
+epoch 170
+time 1625204741.375524 2021-07-02_13-45-41
+win rate (total) = 0.565 (96.0 / 170)
+win rate (random) = 0.964 (84.8 / 88)
+win rate (rulebase) = 0.136 (11.2 / 82)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.188 total:0.008
+updated model(1847)
+85700 85800 85900 86000 86100 
+epoch 171
+time 1625204749.0874765 2021-07-02_13-45-49
+win rate (total) = 0.529 (88.3 / 167)
+win rate (random) = 0.953 (78.2 / 82)
+win rate (rulebase) = 0.120 (10.2 / 85)
+generation stats = -0.000 +- 0.741
+loss = p:-0.001 v:0.009 ent:0.204 total:0.008
+updated model(1857)
+86200 86300 86400 86500 86600 
+epoch 172
+time 1625204758.2064216 2021-07-02_13-45-58
+win rate (total) = 0.608 (103.3 / 170)
+win rate (random) = 0.962 (89.5 / 93)
+win rate (rulebase) = 0.180 (13.8 / 77)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.195 total:0.008
+updated model(1868)
+86700 86800 86900 87000 87100 
+epoch 173
+time 1625204767.8397973 2021-07-02_13-46-07
+win rate (total) = 0.558 (97.2 / 174)
+win rate (random) = 0.958 (87.2 / 91)
+win rate (rulebase) = 0.120 (10.0 / 83)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.189 total:0.008
+updated model(1879)
+87200 87300 87400 87500 87600 
+epoch 174
+time 1625204778.2278993 2021-07-02_13-46-18
+win rate (total) = 0.539 (91.7 / 170)
+win rate (random) = 0.902 (76.7 / 85)
+win rate (rulebase) = 0.176 (15.0 / 85)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.178 total:0.008
+updated model(1892)
+87700 87800 87900 88000 88100 
+epoch 175
+time 1625204788.577279 2021-07-02_13-46-28
+win rate (total) = 0.595 (101.2 / 170)
+win rate (random) = 0.954 (90.7 / 95)
+win rate (rulebase) = 0.140 (10.5 / 75)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.187 total:0.008
+updated model(1905)
+88200 88300 88400 88500 88600 
+epoch 176
+time 1625204799.1835012 2021-07-02_13-46-39
+win rate (total) = 0.600 (103.8 / 173)
+win rate (random) = 0.970 (92.2 / 95)
+win rate (rulebase) = 0.150 (11.7 / 78)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.172 total:0.007
+updated model(1918)
+88700 88800 88900 89000 89100 
+epoch 177
+time 1625204808.5059512 2021-07-02_13-46-48
+win rate (total) = 0.562 (95.5 / 170)
+win rate (random) = 0.998 (82.8 / 83)
+win rate (rulebase) = 0.146 (12.7 / 87)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.185 total:0.008
+updated model(1929)
+89200 89300 89400 89500 89600 
+epoch 178
+time 1625204817.2253213 2021-07-02_13-46-57
+win rate (total) = 0.539 (89.0 / 165)
+win rate (random) = 0.991 (74.3 / 75)
+win rate (rulebase) = 0.163 (14.7 / 90)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.176 total:0.008
+updated model(1940)
+89700 89800 89900 90000 90100 
+epoch 179
+time 1625204826.4618292 2021-07-02_13-47-06
+win rate (total) = 0.570 (99.8 / 175)
+win rate (random) = 0.956 (89.8 / 94)
+win rate (rulebase) = 0.123 (10.0 / 81)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.008 ent:0.180 total:0.008
+updated model(1951)
+90200 90300 90400 90500 90600 
+epoch 180
+time 1625204835.7332408 2021-07-02_13-47-15
+win rate (total) = 0.551 (98.0 / 178)
+win rate (random) = 0.947 (83.3 / 88)
+win rate (rulebase) = 0.163 (14.7 / 90)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.195 total:0.008
+updated model(1963)
+90700 90800 90900 91000 91100 
+epoch 181
+time 1625204844.7464418 2021-07-02_13-47-24
+win rate (total) = 0.537 (91.3 / 170)
+win rate (random) = 0.966 (81.2 / 84)
+win rate (rulebase) = 0.118 (10.2 / 86)
+generation stats = -0.000 +- 0.739
+loss = p:0.000 v:0.008 ent:0.186 total:0.008
+updated model(1974)
+91200 91300 91400 91500 91600 
+epoch 182
+time 1625204853.4157808 2021-07-02_13-47-33
+win rate (total) = 0.556 (94.5 / 170)
+win rate (random) = 0.935 (76.7 / 82)
+win rate (rulebase) = 0.203 (17.8 / 88)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.170 total:0.008
+updated model(1984)
+91700 91800 91900 92000 92100 
+epoch 183
+time 1625204861.6091886 2021-07-02_13-47-41
+win rate (total) = 0.539 (90.0 / 167)
+win rate (random) = 0.979 (77.3 / 79)
+win rate (rulebase) = 0.144 (12.7 / 88)
+generation stats = 0.000 +- 0.738
+loss = p:-0.001 v:0.008 ent:0.182 total:0.008
+updated model(1994)
+92200 92300 92400 92500 92600 
+epoch 184
+time 1625204870.0409088 2021-07-02_13-47-50
+win rate (total) = 0.569 (95.7 / 168)
+win rate (random) = 0.944 (84.0 / 89)
+win rate (rulebase) = 0.148 (11.7 / 79)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.187 total:0.008
+updated model(2004)
+92700 92800 92900 93000 93100 
+epoch 185
+time 1625204878.032989 2021-07-02_13-47-58
+win rate (total) = 0.561 (96.0 / 171)
+win rate (random) = 0.960 (84.5 / 88)
+win rate (rulebase) = 0.139 (11.5 / 83)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.176 total:0.008
+updated model(2013)
+93200 93300 93400 93500 93600 
+epoch 186
+time 1625204886.1433146 2021-07-02_13-48-06
+win rate (total) = 0.603 (103.7 / 172)
+win rate (random) = 0.972 (93.3 / 96)
+win rate (rulebase) = 0.136 (10.3 / 76)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.179 total:0.008
+updated model(2023)
+93700 93800 93900 94000 94100 
+epoch 187
+time 1625204894.6791687 2021-07-02_13-48-14
+win rate (total) = 0.567 (97.5 / 172)
+win rate (random) = 0.953 (90.5 / 95)
+win rate (rulebase) = 0.091 (7.0 / 77)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.188 total:0.007
+updated model(2034)
+94200 94300 94400 94500 94600 
+epoch 188
+time 1625204902.7959504 2021-07-02_13-48-22
+win rate (total) = 0.570 (96.8 / 170)
+win rate (random) = 0.977 (86.0 / 88)
+win rate (rulebase) = 0.132 (10.8 / 82)
+generation stats = 0.000 +- 0.736
+loss = p:-0.001 v:0.008 ent:0.186 total:0.007
+updated model(2043)
+94700 94800 94900 95000 95100 
+epoch 189
+time 1625204910.788992 2021-07-02_13-48-30
+win rate (total) = 0.596 (100.2 / 168)
+win rate (random) = 0.941 (90.3 / 96)
+win rate (rulebase) = 0.137 (9.8 / 72)
+generation stats = 0.000 +- 0.737
+loss = p:-0.001 v:0.008 ent:0.171 total:0.008
+updated model(2053)
+95200 95300 95400 95500 95600 
+epoch 190
+time 1625204918.5337234 2021-07-02_13-48-38
+win rate (total) = 0.571 (93.7 / 164)
+win rate (random) = 0.953 (83.8 / 88)
+win rate (rulebase) = 0.129 (9.8 / 76)
+generation stats = -0.000 +- 0.734
+loss = p:0.000 v:0.008 ent:0.169 total:0.008
+updated model(2063)
+95700 95800 95900 96000 96100 
+epoch 191
+time 1625204926.4488597 2021-07-02_13-48-46
+win rate (total) = 0.551 (93.2 / 169)
+win rate (random) = 0.988 (81.0 / 82)
+win rate (rulebase) = 0.140 (12.2 / 87)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.163 total:0.008
+updated model(2072)
+96200 96300 96400 96500 96600 
+epoch 192
+time 1625204935.7039506 2021-07-02_13-48-55
+win rate (total) = 0.580 (101.0 / 174)
+win rate (random) = 0.943 (91.5 / 97)
+win rate (rulebase) = 0.123 (9.5 / 77)
+generation stats = 0.000 +- 0.736
+loss = p:-0.001 v:0.008 ent:0.175 total:0.007
+updated model(2083)
+96700 96800 96900 97000 97100 
+epoch 193
+time 1625204943.8118455 2021-07-02_13-49-03
+win rate (total) = 0.566 (94.0 / 166)
+win rate (random) = 0.950 (82.7 / 87)
+win rate (rulebase) = 0.143 (11.3 / 79)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.185 total:0.007
+updated model(2093)
+97200 97300 97400 97500 97600 
+epoch 194
+time 1625204951.9823887 2021-07-02_13-49-11
+win rate (total) = 0.607 (102.5 / 169)
+win rate (random) = 0.918 (95.5 / 104)
+win rate (rulebase) = 0.108 (7.0 / 65)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.167 total:0.008
+updated model(2103)
+97700 97800 97900 98000 98100 
+epoch 195
+time 1625204963.2342815 2021-07-02_13-49-23
+win rate (total) = 0.520 (90.5 / 174)
+win rate (random) = 0.960 (80.7 / 84)
+win rate (rulebase) = 0.109 (9.8 / 90)
+generation stats = -0.000 +- 0.732
+loss = p:-0.000 v:0.008 ent:0.150 total:0.008
+updated model(2117)
+98200 98300 98400 98500 98600 
+epoch 196
+time 1625204973.8118346 2021-07-02_13-49-33
+win rate (total) = 0.570 (98.7 / 173)
+win rate (random) = 0.940 (83.7 / 89)
+win rate (rulebase) = 0.179 (15.0 / 84)
+generation stats = 0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.162 total:0.008
+updated model(2130)
+98700 98800 98900 99000 99100 
+epoch 197
+time 1625204983.2053113 2021-07-02_13-49-43
+win rate (total) = 0.609 (103.5 / 170)
+win rate (random) = 0.988 (95.8 / 97)
+win rate (rulebase) = 0.105 (7.7 / 73)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.171 total:0.007
+updated model(2141)
+99200 99300 99400 99500 99600 
+epoch 198
+time 1625204992.9719849 2021-07-02_13-49-52
+win rate (total) = 0.604 (105.7 / 175)
+win rate (random) = 0.963 (95.3 / 99)
+win rate (rulebase) = 0.136 (10.3 / 76)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.170 total:0.008
+updated model(2153)
+99700 99800 99900 100000 100100 
+epoch 199
+time 1625205002.4759204 2021-07-02_13-50-02
+win rate (total) = 0.557 (95.8 / 172)
+win rate (random) = 0.962 (79.8 / 83)
+win rate (rulebase) = 0.180 (16.0 / 89)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.167 total:0.007
+updated model(2165)
+100200 100300 100400 100500 100600 
+epoch 200
+time 1625205011.7402399 2021-07-02_13-50-11
+win rate (total) = 0.534 (92.3 / 173)
+win rate (random) = 0.933 (83.0 / 89)
+win rate (rulebase) = 0.111 (9.3 / 84)
+generation stats = 0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.189 total:0.008
+updated model(2176)
+100700 100800 100900 101000 101100 
+epoch 201
+time 1625205020.0447292 2021-07-02_13-50-20
+win rate (total) = 0.526 (91.5 / 174)
+win rate (random) = 0.925 (82.3 / 89)
+win rate (rulebase) = 0.108 (9.2 / 85)
+generation stats = 0.000 +- 0.735
+loss = p:-0.000 v:0.008 ent:0.190 total:0.007
+updated model(2187)
+101200 101300 101400 101500 101600 
+epoch 202
+time 1625205030.7952373 2021-07-02_13-50-30
+win rate (total) = 0.447 (76.5 / 171)
+win rate (random) = 0.885 (65.5 / 74)
+win rate (rulebase) = 0.113 (11.0 / 97)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.171 total:0.008
+updated model(2200)
+101700 101800 101900 102000 102100 
+epoch 203
+time 1625205041.577219 2021-07-02_13-50-41
+win rate (total) = 0.627 (105.3 / 168)
+win rate (random) = 0.973 (95.3 / 98)
+win rate (rulebase) = 0.143 (10.0 / 70)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.161 total:0.007
+updated model(2213)
+102200 102300 102400 102500 102600 
+epoch 204
+time 1625205052.4572935 2021-07-02_13-50-52
+win rate (total) = 0.598 (105.3 / 176)
+win rate (random) = 0.956 (89.8 / 94)
+win rate (rulebase) = 0.189 (15.5 / 82)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.162 total:0.007
+updated model(2226)
+102700 102800 102900 103000 103100 
+epoch 205
+time 1625205062.513245 2021-07-02_13-51-02
+win rate (total) = 0.607 (105.0 / 173)
+win rate (random) = 0.968 (96.8 / 100)
+win rate (rulebase) = 0.112 (8.2 / 73)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.149 total:0.007
+updated model(2238)
+103200 103300 103400 103500 103600 
+epoch 206
+time 1625205072.3515494 2021-07-02_13-51-12
+win rate (total) = 0.553 (96.8 / 175)
+win rate (random) = 0.941 (84.7 / 90)
+win rate (rulebase) = 0.143 (12.2 / 85)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.155 total:0.007
+updated model(2250)
+103700 103800 103900 104000 104100 
+epoch 207
+time 1625205081.739164 2021-07-02_13-51-21
+win rate (total) = 0.539 (92.2 / 171)
+win rate (random) = 0.937 (82.5 / 88)
+win rate (rulebase) = 0.116 (9.7 / 83)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.179 total:0.007
+updated model(2262)
+104200 104300 104400 104500 104600 
+epoch 208
+time 1625205090.6003532 2021-07-02_13-51-30
+win rate (total) = 0.589 (100.7 / 171)
+win rate (random) = 0.981 (88.3 / 90)
+win rate (rulebase) = 0.152 (12.3 / 81)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.189 total:0.007
+updated model(2273)
+104700 104800 104900 105000 105100 
+epoch 209
+time 1625205100.564135 2021-07-02_13-51-40
+win rate (total) = 0.526 (90.0 / 171)
+win rate (random) = 0.919 (83.7 / 91)
+win rate (rulebase) = 0.079 (6.3 / 80)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.157 total:0.007
+updated model(2285)
+105200 105300 105400 105500 105600 
+epoch 210
+time 1625205110.0969553 2021-07-02_13-51-50
+win rate (total) = 0.591 (101.0 / 171)
+win rate (random) = 0.978 (90.0 / 92)
+win rate (rulebase) = 0.139 (11.0 / 79)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.164 total:0.008
+updated model(2296)
+105700 105800 105900 106000 106100 
+epoch 211
+time 1625205119.9686806 2021-07-02_13-51-59
+win rate (total) = 0.589 (103.0 / 175)
+win rate (random) = 0.938 (91.0 / 97)
+win rate (rulebase) = 0.154 (12.0 / 78)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.164 total:0.008
+updated model(2309)
+106200 106300 106400 106500 106600 
+epoch 212
+time 1625205130.1217878 2021-07-02_13-52-10
+win rate (total) = 0.590 (99.7 / 169)
+win rate (random) = 0.950 (92.2 / 97)
+win rate (rulebase) = 0.104 (7.5 / 72)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.171 total:0.007
+updated model(2320)
+106700 106800 106900 107000 107100 
+epoch 213
+time 1625205140.0852015 2021-07-02_13-52-20
+win rate (total) = 0.570 (98.7 / 173)
+win rate (random) = 0.926 (89.8 / 97)
+win rate (rulebase) = 0.116 (8.8 / 76)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.169 total:0.007
+updated model(2332)
+107200 107300 107400 107500 107600 
+epoch 214
+time 1625205150.6208916 2021-07-02_13-52-30
+win rate (total) = 0.576 (100.8 / 175)
+win rate (random) = 0.960 (83.5 / 87)
+win rate (rulebase) = 0.197 (17.3 / 88)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.157 total:0.007
+updated model(2345)
+107700 107800 107900 108000 108100 
+epoch 215
+time 1625205161.3223603 2021-07-02_13-52-41
+win rate (total) = 0.554 (94.7 / 171)
+win rate (random) = 0.960 (84.5 / 88)
+win rate (rulebase) = 0.122 (10.2 / 83)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.169 total:0.007
+updated model(2358)
+108200 108300 108400 108500 108600 
+epoch 216
+time 1625205169.8043342 2021-07-02_13-52-49
+win rate (total) = 0.576 (98.5 / 171)
+win rate (random) = 0.971 (90.3 / 93)
+win rate (rulebase) = 0.105 (8.2 / 78)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.151 total:0.007
+updated model(2369)
+108700 108800 108900 109000 109100 
+epoch 217
+time 1625205178.0209198 2021-07-02_13-52-58
+win rate (total) = 0.518 (89.2 / 172)
+win rate (random) = 0.931 (78.2 / 84)
+win rate (rulebase) = 0.125 (11.0 / 88)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.154 total:0.007
+updated model(2379)
+109200 109300 109400 109500 109600 
+epoch 218
+time 1625205187.1847808 2021-07-02_13-53-07
+win rate (total) = 0.609 (106.0 / 174)
+win rate (random) = 0.936 (99.2 / 106)
+win rate (rulebase) = 0.100 (6.8 / 68)
+generation stats = 0.000 +- 0.733
+loss = p:-0.000 v:0.008 ent:0.144 total:0.007
+updated model(2390)
+109700 109800 109900 110000 110100 
+epoch 219
+time 1625205197.5276294 2021-07-02_13-53-17
+win rate (total) = 0.582 (100.2 / 172)
+win rate (random) = 0.972 (87.5 / 90)
+win rate (rulebase) = 0.154 (12.7 / 82)
+generation stats = -0.000 +- 0.737
+loss = p:0.000 v:0.008 ent:0.127 total:0.008
+updated model(2402)
+110200 110300 110400 110500 110600 
+epoch 220
+time 1625205210.0759757 2021-07-02_13-53-30
+win rate (total) = 0.564 (95.8 / 170)
+win rate (random) = 0.969 (89.2 / 92)
+win rate (rulebase) = 0.085 (6.7 / 78)
+generation stats = -0.000 +- 0.728
+loss = p:-0.001 v:0.008 ent:0.155 total:0.007
+updated model(2418)
+110700 110800 110900 111000 111100 
+epoch 221
+time 1625205220.7274735 2021-07-02_13-53-40
+win rate (total) = 0.576 (95.0 / 165)
+win rate (random) = 0.945 (80.3 / 85)
+win rate (rulebase) = 0.183 (14.7 / 80)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.008 ent:0.156 total:0.007
+updated model(2431)
+111200 111300 111400 111500 111600 
+epoch 222
+time 1625205230.6079862 2021-07-02_13-53-50
+win rate (total) = 0.622 (109.5 / 176)
+win rate (random) = 0.988 (94.8 / 96)
+win rate (rulebase) = 0.183 (14.7 / 80)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.173 total:0.007
+updated model(2443)
+111700 111800 111900 112000 112100 
+epoch 223
+time 1625205240.471944 2021-07-02_13-54-00
+win rate (total) = 0.566 (96.8 / 171)
+win rate (random) = 0.969 (89.2 / 92)
+win rate (rulebase) = 0.097 (7.7 / 79)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.183 total:0.007
+updated model(2455)
+112200 112300 112400 112500 112600 
+epoch 224
+time 1625205250.6105947 2021-07-02_13-54-10
+win rate (total) = 0.555 (94.3 / 170)
+win rate (random) = 0.910 (87.3 / 96)
+win rate (rulebase) = 0.095 (7.0 / 74)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.184 total:0.007
+updated model(2467)
+112700 112800 112900 113000 113100 
+epoch 225
+time 1625205260.268274 2021-07-02_13-54-20
+win rate (total) = 0.534 (92.8 / 174)
+win rate (random) = 0.954 (85.8 / 90)
+win rate (rulebase) = 0.083 (7.0 / 84)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.166 total:0.008
+updated model(2479)
+113200 113300 113400 113500 113600 
+epoch 226
+time 1625205270.3823657 2021-07-02_13-54-30
+win rate (total) = 0.587 (101.0 / 172)
+win rate (random) = 0.961 (89.3 / 93)
+win rate (rulebase) = 0.148 (11.7 / 79)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.160 total:0.007
+updated model(2491)
+113700 113800 113900 114000 114100 
+epoch 227
+time 1625205281.0798326 2021-07-02_13-54-41
+win rate (total) = 0.567 (95.8 / 169)
+win rate (random) = 0.974 (86.7 / 89)
+win rate (rulebase) = 0.115 (9.2 / 80)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.165 total:0.007
+updated model(2504)
+114200 114300 114400 114500 114600 
+epoch 228
+time 1625205291.6252096 2021-07-02_13-54-51
+win rate (total) = 0.567 (98.7 / 174)
+win rate (random) = 0.966 (85.0 / 88)
+win rate (rulebase) = 0.159 (13.7 / 86)
+generation stats = -0.000 +- 0.739
+loss = p:-0.001 v:0.008 ent:0.169 total:0.007
+updated model(2517)
+114700 114800 114900 115000 115100 
+epoch 229
+time 1625205301.412736 2021-07-02_13-55-01
+win rate (total) = 0.578 (100.0 / 173)
+win rate (random) = 0.936 (90.8 / 97)
+win rate (rulebase) = 0.121 (9.2 / 76)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.162 total:0.007
+updated model(2529)
+115200 115300 115400 115500 115600 
+epoch 230
+time 1625205311.2391465 2021-07-02_13-55-11
+win rate (total) = 0.586 (97.8 / 167)
+win rate (random) = 0.959 (85.3 / 89)
+win rate (rulebase) = 0.160 (12.5 / 78)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.147 total:0.007
+updated model(2541)
+115700 115800 115900 116000 116100 
+epoch 231
+time 1625205322.4851768 2021-07-02_13-55-22
+win rate (total) = 0.628 (110.5 / 176)
+win rate (random) = 0.942 (100.8 / 107)
+win rate (rulebase) = 0.140 (9.7 / 69)
+generation stats = -0.000 +- 0.735
+loss = p:-0.000 v:0.008 ent:0.154 total:0.007
+updated model(2555)
+116200 116300 116400 116500 116600 
+epoch 232
+time 1625205332.2308695 2021-07-02_13-55-32
+win rate (total) = 0.572 (99.0 / 173)
+win rate (random) = 0.981 (84.3 / 86)
+win rate (rulebase) = 0.169 (14.7 / 87)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.173 total:0.007
+updated model(2567)
+116700 116800 116900 117000 117100 
+epoch 233
+time 1625205341.504059 2021-07-02_13-55-41
+win rate (total) = 0.508 (86.8 / 171)
+win rate (random) = 0.922 (78.3 / 85)
+win rate (rulebase) = 0.099 (8.5 / 86)
+generation stats = -0.000 +- 0.741
+loss = p:0.000 v:0.008 ent:0.155 total:0.008
+updated model(2578)
+117200 117300 117400 117500 117600 
+epoch 234
+time 1625205350.5593138 2021-07-02_13-55-50
+win rate (total) = 0.631 (108.5 / 172)
+win rate (random) = 0.929 (93.8 / 101)
+win rate (rulebase) = 0.207 (14.7 / 71)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.149 total:0.007
+updated model(2589)
+117700 117800 117900 118000 118100 
+epoch 235
+time 1625205360.0203931 2021-07-02_13-56-00
+win rate (total) = 0.553 (94.0 / 170)
+win rate (random) = 0.976 (80.0 / 82)
+win rate (rulebase) = 0.159 (14.0 / 88)
+generation stats = -0.000 +- 0.737
+loss = p:-0.001 v:0.008 ent:0.155 total:0.007
+updated model(2601)
+118200 118300 118400 118500 118600 
+epoch 236
+time 1625205370.128803 2021-07-02_13-56-10
+win rate (total) = 0.577 (99.2 / 172)
+win rate (random) = 0.953 (90.5 / 95)
+win rate (rulebase) = 0.113 (8.7 / 77)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.172 total:0.007
+updated model(2613)
+118700 118800 118900 119000 119100 
+epoch 237
+time 1625205378.9452043 2021-07-02_13-56-18
+win rate (total) = 0.592 (101.2 / 171)
+win rate (random) = 0.938 (93.8 / 100)
+win rate (rulebase) = 0.103 (7.3 / 71)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.008 ent:0.171 total:0.007
+updated model(2624)
+119200 119300 119400 119500 119600 
+epoch 238
+time 1625205389.071615 2021-07-02_13-56-29
+win rate (total) = 0.566 (97.8 / 173)
+win rate (random) = 0.975 (90.7 / 93)
+win rate (rulebase) = 0.090 (7.2 / 80)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.155 total:0.007
+updated model(2636)
+119700 119800 119900 120000 120100 
+epoch 239
+time 1625205399.326765 2021-07-02_13-56-39
+win rate (total) = 0.587 (98.7 / 168)
+win rate (random) = 0.981 (88.3 / 90)
+win rate (rulebase) = 0.132 (10.3 / 78)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.149 total:0.007
+updated model(2649)
+120200 120300 120400 120500 120600 
+epoch 240
+time 1625205410.099951 2021-07-02_13-56-50
+win rate (total) = 0.500 (86.5 / 173)
+win rate (random) = 0.971 (72.8 / 75)
+win rate (rulebase) = 0.139 (13.7 / 98)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.164 total:0.007
+updated model(2662)
+120700 120800 120900 121000 121100 
+epoch 241
+time 1625205418.893231 2021-07-02_13-56-58
+win rate (total) = 0.652 (108.8 / 167)
+win rate (random) = 0.979 (100.8 / 103)
+win rate (rulebase) = 0.125 (8.0 / 64)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.172 total:0.007
+updated model(2673)
+121200 121300 121400 121500 121600 
+epoch 242
+time 1625205426.8175917 2021-07-02_13-57-06
+win rate (total) = 0.628 (106.8 / 170)
+win rate (random) = 0.964 (99.3 / 103)
+win rate (rulebase) = 0.112 (7.5 / 67)
+generation stats = -0.000 +- 0.738
+loss = p:0.000 v:0.008 ent:0.166 total:0.007
+updated model(2681)
+121700 121800 121900 122000 122100 
+epoch 243
+time 1625205434.67797 2021-07-02_13-57-14
+win rate (total) = 0.519 (88.2 / 170)
+win rate (random) = 0.951 (77.0 / 81)
+win rate (rulebase) = 0.125 (11.2 / 89)
+generation stats = 0.000 +- 0.738
+loss = p:0.000 v:0.008 ent:0.161 total:0.008
+updated model(2691)
+122200 122300 122400 122500 122600 
+epoch 244
+time 1625205443.2711654 2021-07-02_13-57-23
+win rate (total) = 0.513 (87.2 / 170)
+win rate (random) = 0.942 (75.3 / 80)
+win rate (rulebase) = 0.131 (11.8 / 90)
+generation stats = -0.000 +- 0.737
+loss = p:-0.001 v:0.008 ent:0.162 total:0.007
+updated model(2701)
+122700 122800 122900 123000 123100 
+epoch 245
+time 1625205451.3716185 2021-07-02_13-57-31
+win rate (total) = 0.577 (95.8 / 166)
+win rate (random) = 0.961 (86.5 / 90)
+win rate (rulebase) = 0.123 (9.3 / 76)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.178 total:0.007
+updated model(2711)
+123200 123300 123400 123500 123600 
+epoch 246
+time 1625205458.6171043 2021-07-02_13-57-38
+win rate (total) = 0.570 (96.3 / 169)
+win rate (random) = 0.978 (82.2 / 84)
+win rate (rulebase) = 0.167 (14.2 / 85)
+generation stats = -0.000 +- 0.737
+loss = p:-0.001 v:0.008 ent:0.162 total:0.007
+updated model(2720)
+123700 123800 123900 124000 124100 
+epoch 247
+time 1625205466.9554853 2021-07-02_13-57-46
+win rate (total) = 0.545 (93.2 / 171)
+win rate (random) = 0.988 (84.0 / 85)
+win rate (rulebase) = 0.107 (9.2 / 86)
+generation stats = 0.000 +- 0.735
+loss = p:0.000 v:0.008 ent:0.156 total:0.008
+updated model(2730)
+124200 124300 124400 124500 124600 
+epoch 248
+time 1625205475.908827 2021-07-02_13-57-55
+win rate (total) = 0.511 (88.8 / 174)
+win rate (random) = 0.929 (79.0 / 85)
+win rate (rulebase) = 0.110 (9.8 / 89)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.168 total:0.007
+updated model(2741)
+124700 124800 124900 125000 125100 
+epoch 249
+time 1625205484.8851578 2021-07-02_13-58-04
+win rate (total) = 0.558 (95.3 / 171)
+win rate (random) = 0.949 (87.3 / 92)
+win rate (rulebase) = 0.101 (8.0 / 79)
+generation stats = 0.000 +- 0.737
+loss = p:-0.001 v:0.008 ent:0.169 total:0.007
+updated model(2752)
+125200 125300 125400 125500 125600 
+epoch 250
+time 1625205494.052907 2021-07-02_13-58-14
+win rate (total) = 0.561 (94.8 / 169)
+win rate (random) = 0.966 (81.2 / 84)
+win rate (rulebase) = 0.161 (13.7 / 85)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.153 total:0.007
+updated model(2763)
+125700 125800 125900 126000 126100 
+epoch 251
+time 1625205503.2534244 2021-07-02_13-58-23
+win rate (total) = 0.573 (99.2 / 173)
+win rate (random) = 0.927 (86.2 / 93)
+win rate (rulebase) = 0.163 (13.0 / 80)
+generation stats = 0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.160 total:0.007
+updated model(2774)
+126200 126300 126400 126500 126600 
+epoch 252
+time 1625205512.2771876 2021-07-02_13-58-32
+win rate (total) = 0.522 (89.3 / 171)
+win rate (random) = 0.969 (77.5 / 80)
+win rate (rulebase) = 0.130 (11.8 / 91)
+generation stats = -0.000 +- 0.735
+loss = p:0.000 v:0.008 ent:0.178 total:0.008
+updated model(2785)
+126700 126800 126900 127000 127100 
+epoch 253
+time 1625205521.2007978 2021-07-02_13-58-41
+win rate (total) = 0.479 (82.3 / 172)
+win rate (random) = 0.954 (72.5 / 76)
+win rate (rulebase) = 0.102 (9.8 / 96)
+generation stats = 0.000 +- 0.737
+loss = p:-0.001 v:0.008 ent:0.176 total:0.007
+updated model(2796)
+127200 127300 127400 127500 127600 
+epoch 254
+time 1625205529.7332013 2021-07-02_13-58-49
+win rate (total) = 0.629 (110.7 / 176)
+win rate (random) = 0.953 (102.0 / 107)
+win rate (rulebase) = 0.126 (8.7 / 69)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.155 total:0.007
+updated model(2807)
+127700 127800 127900 128000 128100 
+epoch 255
+time 1625205538.9239469 2021-07-02_13-58-58
+win rate (total) = 0.592 (101.2 / 171)
+win rate (random) = 0.931 (85.7 / 92)
+win rate (rulebase) = 0.196 (15.5 / 79)
+generation stats = -0.000 +- 0.735
+loss = p:0.000 v:0.008 ent:0.149 total:0.008
+updated model(2818)
+128200 128300 128400 128500 128600 
+epoch 256
+time 1625205547.3809202 2021-07-02_13-59-07
+win rate (total) = 0.584 (98.2 / 168)
+win rate (random) = 0.954 (86.8 / 91)
+win rate (rulebase) = 0.147 (11.3 / 77)
+generation stats = 0.000 +- 0.731
+loss = p:-0.000 v:0.007 ent:0.137 total:0.007
+updated model(2828)
+128700 128800 128900 129000 129100 
+epoch 257
+time 1625205555.8935652 2021-07-02_13-59-15
+win rate (total) = 0.592 (101.8 / 172)
+win rate (random) = 0.976 (89.8 / 92)
+win rate (rulebase) = 0.150 (12.0 / 80)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.146 total:0.007
+updated model(2839)
+129200 129300 129400 129500 129600 
+epoch 258
+time 1625205564.9718082 2021-07-02_13-59-24
+win rate (total) = 0.564 (96.5 / 171)
+win rate (random) = 0.951 (80.8 / 85)
+win rate (rulebase) = 0.182 (15.7 / 86)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.152 total:0.007
+updated model(2850)
+129700 129800 129900 130000 130100 
+epoch 259
+time 1625205574.514451 2021-07-02_13-59-34
+win rate (total) = 0.587 (98.7 / 168)
+win rate (random) = 0.951 (87.5 / 92)
+win rate (rulebase) = 0.147 (11.2 / 76)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.140 total:0.007
+updated model(2861)
+130200 130300 130400 130500 130600 
+epoch 260
+time 1625205584.2991428 2021-07-02_13-59-44
+win rate (total) = 0.539 (90.5 / 168)
+win rate (random) = 0.944 (82.2 / 87)
+win rate (rulebase) = 0.103 (8.3 / 81)
+generation stats = 0.000 +- 0.732
+loss = p:-0.000 v:0.008 ent:0.124 total:0.007
+updated model(2873)
+130700 130800 130900 131000 131100 
+epoch 261
+time 1625205594.9597354 2021-07-02_13-59-54
+win rate (total) = 0.530 (90.7 / 171)
+win rate (random) = 0.968 (80.3 / 83)
+win rate (rulebase) = 0.117 (10.3 / 88)
+generation stats = -0.000 +- 0.734
+loss = p:0.000 v:0.008 ent:0.139 total:0.007
+updated model(2886)
+131200 131300 131400 131500 131600 
+epoch 262
+time 1625205603.973739 2021-07-02_14-00-03
+win rate (total) = 0.589 (103.7 / 176)
+win rate (random) = 0.955 (91.7 / 96)
+win rate (rulebase) = 0.150 (12.0 / 80)
+generation stats = -0.000 +- 0.739
+loss = p:-0.001 v:0.007 ent:0.173 total:0.007
+updated model(2897)
+131700 131800 131900 132000 132100 
+epoch 263
+time 1625205612.777418 2021-07-02_14-00-12
+win rate (total) = 0.547 (91.8 / 168)
+win rate (random) = 0.922 (81.2 / 88)
+win rate (rulebase) = 0.133 (10.7 / 80)
+generation stats = 0.000 +- 0.741
+loss = p:-0.000 v:0.008 ent:0.170 total:0.007
+updated model(2908)
+132200 132300 132400 132500 132600 
+epoch 264
+time 1625205622.2467446 2021-07-02_14-00-22
+win rate (total) = 0.608 (104.5 / 172)
+win rate (random) = 0.984 (89.5 / 91)
+win rate (rulebase) = 0.185 (15.0 / 81)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.008 ent:0.155 total:0.007
+updated model(2919)
+132700 132800 132900 133000 133100 
+epoch 265
+time 1625205631.7867842 2021-07-02_14-00-31
+win rate (total) = 0.523 (91.0 / 174)
+win rate (random) = 0.942 (79.2 / 84)
+win rate (rulebase) = 0.131 (11.8 / 90)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.151 total:0.007
+updated model(2931)
+133200 133300 133400 133500 133600 
+epoch 266
+time 1625205642.2612753 2021-07-02_14-00-42
+win rate (total) = 0.541 (92.0 / 170)
+win rate (random) = 0.981 (79.5 / 81)
+win rate (rulebase) = 0.140 (12.5 / 89)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.150 total:0.007
+updated model(2944)
+133700 133800 133900 134000 134100 
+epoch 267
+time 1625205651.8641734 2021-07-02_14-00-51
+win rate (total) = 0.571 (96.0 / 168)
+win rate (random) = 0.938 (83.5 / 89)
+win rate (rulebase) = 0.158 (12.5 / 79)
+generation stats = -0.000 +- 0.734
+loss = p:-0.000 v:0.008 ent:0.145 total:0.007
+updated model(2955)
+134200 134300 134400 134500 134600 
+epoch 268
+time 1625205660.1009738 2021-07-02_14-01-00
+win rate (total) = 0.574 (97.5 / 170)
+win rate (random) = 0.983 (86.5 / 88)
+win rate (rulebase) = 0.134 (11.0 / 82)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.164 total:0.007
+updated model(2965)
+134700 134800 134900 135000 135100 
+epoch 269
+time 1625205668.2111847 2021-07-02_14-01-08
+win rate (total) = 0.525 (88.7 / 169)
+win rate (random) = 0.952 (80.0 / 84)
+win rate (rulebase) = 0.102 (8.7 / 85)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.167 total:0.007
+updated model(2975)
+135200 135300 135400 135500 135600 
+epoch 270
+time 1625205676.034465 2021-07-02_14-01-16
+win rate (total) = 0.550 (93.5 / 170)
+win rate (random) = 0.956 (83.2 / 87)
+win rate (rulebase) = 0.124 (10.3 / 83)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.008 ent:0.158 total:0.007
+updated model(2985)
+135700 135800 135900 136000 136100 
+epoch 271
+time 1625205684.7846682 2021-07-02_14-01-24
+win rate (total) = 0.579 (99.0 / 171)
+win rate (random) = 0.952 (89.5 / 94)
+win rate (rulebase) = 0.123 (9.5 / 77)
+generation stats = 0.000 +- 0.738
+loss = p:-0.001 v:0.008 ent:0.174 total:0.007
+updated model(2995)
+136200 136300 136400 136500 136600 
+epoch 272
+time 1625205693.2938013 2021-07-02_14-01-33
+win rate (total) = 0.540 (92.3 / 171)
+win rate (random) = 0.937 (81.5 / 87)
+win rate (rulebase) = 0.129 (10.8 / 84)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.175 total:0.007
+updated model(3006)
+136700 136800 136900 137000 137100 
+epoch 273
+time 1625205702.7158709 2021-07-02_14-01-42
+win rate (total) = 0.569 (97.3 / 171)
+win rate (random) = 0.955 (88.8 / 93)
+win rate (rulebase) = 0.109 (8.5 / 78)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.157 total:0.007
+updated model(3017)
+137200 137300 137400 137500 137600 
+epoch 274
+time 1625205710.67978 2021-07-02_14-01-50
+win rate (total) = 0.556 (93.3 / 168)
+win rate (random) = 0.970 (81.5 / 84)
+win rate (rulebase) = 0.141 (11.8 / 84)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.161 total:0.007
+updated model(3027)
+137700 137800 137900 138000 138100 
+epoch 275
+time 1625205718.6388373 2021-07-02_14-01-58
+win rate (total) = 0.564 (97.0 / 172)
+win rate (random) = 0.992 (84.3 / 85)
+win rate (rulebase) = 0.146 (12.7 / 87)
+generation stats = 0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.153 total:0.007
+updated model(3036)
+138200 138300 138400 138500 138600 
+epoch 276
+time 1625205726.4035032 2021-07-02_14-02-06
+win rate (total) = 0.515 (90.2 / 175)
+win rate (random) = 0.980 (82.3 / 84)
+win rate (rulebase) = 0.086 (7.8 / 91)
+generation stats = -0.000 +- 0.737
+loss = p:-0.001 v:0.007 ent:0.150 total:0.007
+updated model(3046)
+138700 138800 138900 139000 139100 
+epoch 277
+time 1625205733.8687148 2021-07-02_14-02-13
+win rate (total) = 0.523 (88.3 / 169)
+win rate (random) = 0.953 (77.2 / 81)
+win rate (rulebase) = 0.127 (11.2 / 88)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.007 ent:0.149 total:0.006
+updated model(3055)
+139200 139300 139400 139500 139600 
+epoch 278
+time 1625205743.104705 2021-07-02_14-02-23
+win rate (total) = 0.536 (93.8 / 175)
+win rate (random) = 0.976 (82.0 / 84)
+win rate (rulebase) = 0.130 (11.8 / 91)
+generation stats = 0.000 +- 0.739
+loss = p:-0.001 v:0.007 ent:0.137 total:0.007
+updated model(3065)
+139700 139800 139900 140000 140100 
+epoch 279
+time 1625205752.8772259 2021-07-02_14-02-32
+win rate (total) = 0.565 (97.7 / 173)
+win rate (random) = 0.950 (88.3 / 93)
+win rate (rulebase) = 0.117 (9.3 / 80)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.141 total:0.007
+updated model(3077)
+140200 140300 140400 140500 140600 
+epoch 280
+time 1625205763.5296779 2021-07-02_14-02-43
+win rate (total) = 0.555 (96.0 / 173)
+win rate (random) = 0.950 (85.5 / 90)
+win rate (rulebase) = 0.127 (10.5 / 83)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.156 total:0.007
+updated model(3090)
+140700 140800 140900 141000 141100 
+epoch 281
+time 1625205772.9039388 2021-07-02_14-02-52
+win rate (total) = 0.595 (101.7 / 171)
+win rate (random) = 0.996 (92.7 / 93)
+win rate (rulebase) = 0.115 (9.0 / 78)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.161 total:0.007
+updated model(3101)
+141200 141300 141400 141500 141600 
+epoch 282
+time 1625205781.8476262 2021-07-02_14-03-01
+win rate (total) = 0.556 (94.5 / 170)
+win rate (random) = 0.937 (81.5 / 87)
+win rate (rulebase) = 0.157 (13.0 / 83)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.167 total:0.007
+updated model(3112)
+141700 141800 141900 142000 142100 
+epoch 283
+time 1625205790.7249165 2021-07-02_14-03-10
+win rate (total) = 0.591 (101.0 / 171)
+win rate (random) = 0.955 (92.7 / 97)
+win rate (rulebase) = 0.113 (8.3 / 74)
+generation stats = 0.000 +- 0.741
+loss = p:-0.000 v:0.007 ent:0.175 total:0.007
+updated model(3123)
+142200 142300 142400 142500 142600 
+epoch 284
+time 1625205799.775388 2021-07-02_14-03-19
+win rate (total) = 0.549 (91.2 / 166)
+win rate (random) = 0.970 (80.5 / 83)
+win rate (rulebase) = 0.129 (10.7 / 83)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.007 ent:0.154 total:0.007
+updated model(3134)
+142700 142800 142900 143000 143100 
+epoch 285
+time 1625205808.9220479 2021-07-02_14-03-28
+win rate (total) = 0.611 (103.8 / 170)
+win rate (random) = 0.979 (92.0 / 94)
+win rate (rulebase) = 0.156 (11.8 / 76)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.008 ent:0.145 total:0.007
+updated model(3145)
+143200 143300 143400 143500 143600 
+epoch 286
+time 1625205817.9317288 2021-07-02_14-03-37
+win rate (total) = 0.588 (100.5 / 171)
+win rate (random) = 0.953 (88.7 / 93)
+win rate (rulebase) = 0.152 (11.8 / 78)
+generation stats = -0.000 +- 0.735
+loss = p:0.000 v:0.008 ent:0.145 total:0.008
+updated model(3156)
+143700 143800 143900 144000 144100 
+epoch 287
+time 1625205826.315791 2021-07-02_14-03-46
+win rate (total) = 0.654 (111.2 / 170)
+win rate (random) = 0.981 (95.2 / 97)
+win rate (rulebase) = 0.219 (16.0 / 73)
+generation stats = 0.000 +- 0.735
+loss = p:-0.001 v:0.008 ent:0.163 total:0.007
+updated model(3166)
+144200 144300 144400 144500 144600 
+epoch 288
+time 1625205833.787693 2021-07-02_14-03-53
+win rate (total) = 0.587 (100.3 / 171)
+win rate (random) = 0.957 (86.2 / 90)
+win rate (rulebase) = 0.175 (14.2 / 81)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.008 ent:0.171 total:0.007
+updated model(3175)
+144700 144800 144900 145000 145100 
+epoch 289
+time 1625205843.224912 2021-07-02_14-04-03
+win rate (total) = 0.547 (91.8 / 168)
+win rate (random) = 0.963 (82.8 / 86)
+win rate (rulebase) = 0.110 (9.0 / 82)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.160 total:0.007
+updated model(3187)
+145200 145300 145400 145500 145600 
+epoch 290
+time 1625205853.144997 2021-07-02_14-04-13
+win rate (total) = 0.569 (97.8 / 172)
+win rate (random) = 0.901 (89.2 / 99)
+win rate (rulebase) = 0.119 (8.7 / 73)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.007 ent:0.155 total:0.007
+updated model(3199)
+145700 145800 145900 146000 146100 
+epoch 291
+time 1625205862.8212843 2021-07-02_14-04-22
+win rate (total) = 0.589 (100.2 / 170)
+win rate (random) = 0.964 (93.5 / 97)
+win rate (rulebase) = 0.091 (6.7 / 73)
+generation stats = 0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.149 total:0.007
+updated model(3210)
+146200 146300 146400 146500 146600 
+epoch 292
+time 1625205872.516329 2021-07-02_14-04-32
+win rate (total) = 0.596 (102.0 / 171)
+win rate (random) = 0.948 (91.0 / 96)
+win rate (rulebase) = 0.147 (11.0 / 75)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.140 total:0.006
+updated model(3222)
+146700 146800 146900 147000 147100 
+epoch 293
+time 1625205882.0328403 2021-07-02_14-04-42
+win rate (total) = 0.492 (83.2 / 169)
+win rate (random) = 0.928 (73.3 / 79)
+win rate (rulebase) = 0.109 (9.8 / 90)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.147 total:0.007
+updated model(3234)
+147200 147300 147400 147500 147600 
+epoch 294
+time 1625205891.1226509 2021-07-02_14-04-51
+win rate (total) = 0.581 (100.5 / 173)
+win rate (random) = 0.956 (86.0 / 90)
+win rate (rulebase) = 0.175 (14.5 / 83)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.161 total:0.007
+updated model(3245)
+147700 147800 147900 148000 148100 
+epoch 295
+time 1625205900.1175306 2021-07-02_14-05-00
+win rate (total) = 0.594 (101.0 / 170)
+win rate (random) = 0.986 (93.7 / 95)
+win rate (rulebase) = 0.098 (7.3 / 75)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.161 total:0.007
+updated model(3256)
+148200 148300 148400 148500 148600 
+epoch 296
+time 1625205909.7753978 2021-07-02_14-05-09
+win rate (total) = 0.533 (91.2 / 171)
+win rate (random) = 0.942 (81.0 / 86)
+win rate (rulebase) = 0.120 (10.2 / 85)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.007 ent:0.144 total:0.006
+updated model(3268)
+148700 148800 148900 149000 149100 
+epoch 297
+time 1625205920.021455 2021-07-02_14-05-20
+win rate (total) = 0.590 (99.7 / 169)
+win rate (random) = 0.970 (91.2 / 94)
+win rate (rulebase) = 0.113 (8.5 / 75)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.008 ent:0.133 total:0.007
+updated model(3280)
+149200 149300 149400 149500 149600 
+epoch 298
+time 1625205930.2189846 2021-07-02_14-05-30
+win rate (total) = 0.611 (103.3 / 169)
+win rate (random) = 0.968 (94.8 / 98)
+win rate (rulebase) = 0.120 (8.5 / 71)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.162 total:0.006
+updated model(3292)
+149700 149800 149900 150000 150100 
+epoch 299
+time 1625205939.4473684 2021-07-02_14-05-39
+win rate (total) = 0.621 (106.2 / 171)
+win rate (random) = 0.977 (99.7 / 102)
+win rate (rulebase) = 0.094 (6.5 / 69)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.164 total:0.007
+updated model(3304)
+150200 150300 150400 150500 150600 
+epoch 300
+time 1625205950.563946 2021-07-02_14-05-50
+win rate (total) = 0.595 (104.2 / 175)
+win rate (random) = 0.964 (92.5 / 96)
+win rate (rulebase) = 0.148 (11.7 / 79)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.007 ent:0.153 total:0.006
+updated model(3317)
+150700 150800 150900 151000 151100 
+epoch 301
+time 1625205961.6400282 2021-07-02_14-06-01
+win rate (total) = 0.550 (95.7 / 174)
+win rate (random) = 0.951 (87.5 / 92)
+win rate (rulebase) = 0.100 (8.2 / 82)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.166 total:0.007
+updated model(3331)
+151200 151300 151400 151500 151600 
+epoch 302
+time 1625205972.1410093 2021-07-02_14-06-12
+win rate (total) = 0.492 (86.2 / 175)
+win rate (random) = 0.953 (74.3 / 78)
+win rate (rulebase) = 0.122 (11.8 / 97)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.135 total:0.007
+updated model(3344)
+151700 151800 151900 152000 152100 
+epoch 303
+time 1625205982.5807207 2021-07-02_14-06-22
+win rate (total) = 0.521 (88.0 / 169)
+win rate (random) = 0.947 (74.8 / 79)
+win rate (rulebase) = 0.146 (13.2 / 90)
+generation stats = -0.000 +- 0.733
+loss = p:-0.000 v:0.008 ent:0.140 total:0.007
+updated model(3356)
+152200 152300 152400 152500 152600 
+epoch 304
+time 1625205992.725792 2021-07-02_14-06-32
+win rate (total) = 0.582 (101.3 / 174)
+win rate (random) = 0.959 (93.0 / 97)
+win rate (rulebase) = 0.108 (8.3 / 77)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.142 total:0.007
+updated model(3369)
+152700 152800 152900 153000 153100 
+epoch 305
+time 1625206003.5547528 2021-07-02_14-06-43
+win rate (total) = 0.557 (96.8 / 174)
+win rate (random) = 0.969 (89.2 / 92)
+win rate (rulebase) = 0.093 (7.7 / 82)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.141 total:0.007
+updated model(3382)
+153200 153300 153400 153500 153600 
+epoch 306
+time 1625206015.4111922 2021-07-02_14-06-55
+win rate (total) = 0.545 (94.3 / 173)
+win rate (random) = 0.927 (80.7 / 87)
+win rate (rulebase) = 0.159 (13.7 / 86)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.148 total:0.007
+updated model(3396)
+153700 153800 153900 154000 154100 
+epoch 307
+time 1625206025.7102072 2021-07-02_14-07-05
+win rate (total) = 0.594 (102.2 / 172)
+win rate (random) = 0.987 (91.8 / 93)
+win rate (rulebase) = 0.131 (10.3 / 79)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.008 ent:0.148 total:0.007
+updated model(3409)
+154200 154300 154400 154500 154600 
+epoch 308
+time 1625206035.7328372 2021-07-02_14-07-15
+win rate (total) = 0.504 (85.2 / 169)
+win rate (random) = 0.929 (71.5 / 77)
+win rate (rulebase) = 0.149 (13.7 / 92)
+generation stats = 0.000 +- 0.738
+loss = p:-0.001 v:0.007 ent:0.135 total:0.006
+updated model(3421)
+154700 154800 154900 155000 155100 
+epoch 309
+time 1625206045.9007301 2021-07-02_14-07-25
+win rate (total) = 0.528 (88.2 / 167)
+win rate (random) = 0.958 (75.7 / 79)
+win rate (rulebase) = 0.142 (12.5 / 88)
+generation stats = -0.000 +- 0.735
+loss = p:0.000 v:0.007 ent:0.140 total:0.007
+updated model(3434)
+155200 155300 155400 155500 155600 
+epoch 310
+time 1625206057.17295 2021-07-02_14-07-37
+win rate (total) = 0.575 (100.7 / 175)
+win rate (random) = 0.970 (91.2 / 94)
+win rate (rulebase) = 0.117 (9.5 / 81)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.149 total:0.006
+updated model(3447)
+155700 155800 155900 156000 156100 
+epoch 311
+time 1625206067.6434028 2021-07-02_14-07-47
+win rate (total) = 0.532 (93.7 / 176)
+win rate (random) = 0.960 (80.7 / 84)
+win rate (rulebase) = 0.141 (13.0 / 92)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.007 ent:0.151 total:0.006
+updated model(3460)
+156200 156300 156400 156500 156600 
+epoch 312
+time 1625206078.888027 2021-07-02_14-07-58
+win rate (total) = 0.558 (95.3 / 171)
+win rate (random) = 0.946 (82.3 / 87)
+win rate (rulebase) = 0.155 (13.0 / 84)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.153 total:0.007
+updated model(3474)
+156700 156800 156900 157000 157100 
+epoch 313
+time 1625206089.022844 2021-07-02_14-08-09
+win rate (total) = 0.598 (102.3 / 171)
+win rate (random) = 0.973 (96.3 / 99)
+win rate (rulebase) = 0.083 (6.0 / 72)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.142 total:0.007
+updated model(3486)
+157200 157300 157400 157500 157600 
+epoch 314
+time 1625206098.858837 2021-07-02_14-08-18
+win rate (total) = 0.540 (93.5 / 173)
+win rate (random) = 0.974 (80.8 / 83)
+win rate (rulebase) = 0.141 (12.7 / 90)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.149 total:0.006
+updated model(3498)
+157700 157800 157900 158000 158100 
+epoch 315
+time 1625206108.5690117 2021-07-02_14-08-28
+win rate (total) = 0.584 (99.8 / 171)
+win rate (random) = 0.957 (89.0 / 93)
+win rate (rulebase) = 0.139 (10.8 / 78)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.146 total:0.007
+updated model(3510)
+158200 158300 158400 158500 158600 
+epoch 316
+time 1625206118.4358237 2021-07-02_14-08-38
+win rate (total) = 0.599 (103.7 / 173)
+win rate (random) = 0.945 (91.7 / 97)
+win rate (rulebase) = 0.158 (12.0 / 76)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.159 total:0.007
+updated model(3521)
+158700 158800 158900 159000 159100 
+epoch 317
+time 1625206128.7148733 2021-07-02_14-08-48
+win rate (total) = 0.547 (93.5 / 171)
+win rate (random) = 0.949 (84.5 / 89)
+win rate (rulebase) = 0.110 (9.0 / 82)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.159 total:0.007
+updated model(3534)
+159200 159300 159400 159500 159600 
+epoch 318
+time 1625206137.9095492 2021-07-02_14-08-57
+win rate (total) = 0.545 (94.3 / 173)
+win rate (random) = 0.927 (80.7 / 87)
+win rate (rulebase) = 0.159 (13.7 / 86)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.154 total:0.007
+updated model(3545)
+159700 159800 159900 160000 160100 
+epoch 319
+time 1625206147.1160443 2021-07-02_14-09-07
+win rate (total) = 0.579 (96.7 / 167)
+win rate (random) = 0.950 (85.5 / 90)
+win rate (rulebase) = 0.145 (11.2 / 77)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.135 total:0.007
+updated model(3556)
+160200 160300 160400 160500 160600 
+epoch 320
+time 1625206157.579661 2021-07-02_14-09-17
+win rate (total) = 0.570 (97.5 / 171)
+win rate (random) = 0.983 (84.5 / 86)
+win rate (rulebase) = 0.153 (13.0 / 85)
+generation stats = 0.000 +- 0.739
+loss = p:-0.000 v:0.007 ent:0.149 total:0.007
+updated model(3569)
+160700 160800 160900 161000 161100 
+epoch 321
+time 1625206168.7843125 2021-07-02_14-09-28
+win rate (total) = 0.557 (95.8 / 172)
+win rate (random) = 0.929 (85.5 / 92)
+win rate (rulebase) = 0.129 (10.3 / 80)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.154 total:0.007
+updated model(3583)
+161200 161300 161400 161500 161600 
+epoch 322
+time 1625206178.5853415 2021-07-02_14-09-38
+win rate (total) = 0.564 (97.0 / 172)
+win rate (random) = 0.974 (88.7 / 91)
+win rate (rulebase) = 0.103 (8.3 / 81)
+generation stats = -0.000 +- 0.735
+loss = p:-0.000 v:0.007 ent:0.132 total:0.007
+updated model(3595)
+161700 161800 161900 162000 162100 
+epoch 323
+time 1625206188.0261977 2021-07-02_14-09-48
+win rate (total) = 0.552 (94.3 / 171)
+win rate (random) = 0.934 (85.0 / 91)
+win rate (rulebase) = 0.117 (9.3 / 80)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.140 total:0.007
+updated model(3606)
+162200 162300 162400 162500 162600 
+epoch 324
+time 1625206197.4558342 2021-07-02_14-09-57
+win rate (total) = 0.560 (95.8 / 171)
+win rate (random) = 0.951 (86.5 / 91)
+win rate (rulebase) = 0.117 (9.3 / 80)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.154 total:0.007
+updated model(3618)
+162700 162800 162900 163000 163100 
+epoch 325
+time 1625206206.3288398 2021-07-02_14-10-06
+win rate (total) = 0.553 (95.7 / 173)
+win rate (random) = 0.946 (85.2 / 90)
+win rate (rulebase) = 0.127 (10.5 / 83)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.008 ent:0.154 total:0.007
+updated model(3628)
+163200 163300 163400 163500 163600 
+epoch 326
+time 1625206216.8356109 2021-07-02_14-10-16
+win rate (total) = 0.543 (93.3 / 172)
+win rate (random) = 0.952 (80.0 / 84)
+win rate (rulebase) = 0.152 (13.3 / 88)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.137 total:0.007
+updated model(3641)
+163700 163800 163900 164000 164100 
+epoch 327
+time 1625206226.527779 2021-07-02_14-10-26
+win rate (total) = 0.576 (99.0 / 172)
+win rate (random) = 0.948 (84.3 / 89)
+win rate (rulebase) = 0.177 (14.7 / 83)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.134 total:0.007
+updated model(3653)
+164200 164300 164400 164500 164600 
+epoch 328
+time 1625206235.4328327 2021-07-02_14-10-35
+win rate (total) = 0.590 (98.5 / 167)
+win rate (random) = 0.943 (88.7 / 94)
+win rate (rulebase) = 0.135 (9.8 / 73)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.007 ent:0.160 total:0.006
+updated model(3664)
+164700 164800 164900 165000 165100 
+epoch 329
+time 1625206243.1841452 2021-07-02_14-10-43
+win rate (total) = 0.600 (103.2 / 172)
+win rate (random) = 0.976 (94.7 / 97)
+win rate (rulebase) = 0.113 (8.5 / 75)
+generation stats = 0.000 +- 0.739
+loss = p:0.000 v:0.007 ent:0.158 total:0.007
+updated model(3673)
+165200 165300 165400 165500 165600 
+epoch 330
+time 1625206251.0048292 2021-07-02_14-10-51
+win rate (total) = 0.585 (98.8 / 169)
+win rate (random) = 0.921 (94.8 / 103)
+win rate (rulebase) = 0.061 (4.0 / 66)
+generation stats = 0.000 +- 0.738
+loss = p:-0.001 v:0.007 ent:0.147 total:0.006
+updated model(3683)
+165700 165800 165900 166000 166100 
+epoch 331
+time 1625206260.22067 2021-07-02_14-11-00
+win rate (total) = 0.544 (93.5 / 172)
+win rate (random) = 0.978 (83.2 / 85)
+win rate (rulebase) = 0.119 (10.3 / 87)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.144 total:0.007
+updated model(3694)
+166200 166300 166400 166500 166600 
+epoch 332
+time 1625206271.4925268 2021-07-02_14-11-11
+win rate (total) = 0.594 (104.5 / 176)
+win rate (random) = 0.965 (96.5 / 100)
+win rate (rulebase) = 0.105 (8.0 / 76)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.150 total:0.006
+updated model(3708)
+166700 166800 166900 167000 167100 
+epoch 333
+time 1625206281.8847535 2021-07-02_14-11-21
+win rate (total) = 0.548 (94.3 / 172)
+win rate (random) = 0.958 (88.2 / 92)
+win rate (rulebase) = 0.077 (6.2 / 80)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.155 total:0.007
+updated model(3721)
+167200 167300 167400 167500 167600 
+epoch 334
+time 1625206289.4717476 2021-07-02_14-11-29
+win rate (total) = 0.537 (89.2 / 166)
+win rate (random) = 0.958 (83.3 / 87)
+win rate (rulebase) = 0.074 (5.8 / 79)
+generation stats = -0.000 +- 0.735
+loss = p:-0.001 v:0.007 ent:0.152 total:0.006
+updated model(3730)
+167700 167800 167900 168000 168100 
+epoch 335
+time 1625206298.042715 2021-07-02_14-11-38
+win rate (total) = 0.589 (100.7 / 171)
+win rate (random) = 0.949 (89.2 / 94)
+win rate (rulebase) = 0.149 (11.5 / 77)
+generation stats = 0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.142 total:0.007
+updated model(3740)
+168200 168300 168400 168500 168600 
+epoch 336
+time 1625206307.7217538 2021-07-02_14-11-47
+win rate (total) = 0.566 (96.2 / 170)
+win rate (random) = 0.975 (85.8 / 88)
+win rate (rulebase) = 0.126 (10.3 / 82)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.152 total:0.006
+updated model(3752)
+168700 168800 168900 169000 169100 
+epoch 337
+time 1625206317.355944 2021-07-02_14-11-57
+win rate (total) = 0.446 (75.3 / 169)
+win rate (random) = 0.951 (64.7 / 68)
+win rate (rulebase) = 0.106 (10.7 / 101)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.146 total:0.007
+updated model(3764)
+169200 169300 169400 169500 169600 
+epoch 338
+time 1625206327.1749015 2021-07-02_14-12-07
+win rate (total) = 0.548 (94.3 / 172)
+win rate (random) = 0.961 (81.7 / 85)
+win rate (rulebase) = 0.146 (12.7 / 87)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.007 ent:0.143 total:0.007
+updated model(3776)
+169700 169800 169900 170000 170100 
+epoch 339
+time 1625206336.1647565 2021-07-02_14-12-16
+win rate (total) = 0.573 (99.7 / 174)
+win rate (random) = 0.941 (93.2 / 99)
+win rate (rulebase) = 0.087 (6.5 / 75)
+generation stats = -0.000 +- 0.737
+loss = p:-0.001 v:0.007 ent:0.144 total:0.006
+updated model(3787)
+170200 170300 170400 170500 170600 
+epoch 340
+time 1625206345.4582813 2021-07-02_14-12-25
+win rate (total) = 0.554 (93.7 / 169)
+win rate (random) = 0.960 (79.7 / 83)
+win rate (rulebase) = 0.163 (14.0 / 86)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.145 total:0.006
+updated model(3798)
+170700 170800 170900 171000 171100 
+epoch 341
+time 1625206355.2687888 2021-07-02_14-12-35
+win rate (total) = 0.531 (91.3 / 172)
+win rate (random) = 0.988 (83.0 / 84)
+win rate (rulebase) = 0.095 (8.3 / 88)
+generation stats = -0.000 +- 0.739
+loss = p:-0.001 v:0.007 ent:0.151 total:0.006
+updated model(3810)
+171200 171300 171400 171500 171600 
+epoch 342
+time 1625206364.6709437 2021-07-02_14-12-44
+win rate (total) = 0.526 (90.5 / 172)
+win rate (random) = 0.917 (80.7 / 88)
+win rate (rulebase) = 0.117 (9.8 / 84)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.136 total:0.007
+updated model(3822)
+171700 171800 171900 172000 172100 
+epoch 343
+time 1625206373.6073 2021-07-02_14-12-53
+win rate (total) = 0.566 (99.0 / 175)
+win rate (random) = 0.954 (85.8 / 90)
+win rate (rulebase) = 0.155 (13.2 / 85)
+generation stats = -0.000 +- 0.735
+loss = p:-0.000 v:0.007 ent:0.122 total:0.007
+updated model(3832)
+172200 172300 172400 172500 172600 
+epoch 344
+time 1625206383.0274878 2021-07-02_14-13-03
+win rate (total) = 0.552 (92.2 / 167)
+win rate (random) = 0.976 (83.0 / 85)
+win rate (rulebase) = 0.112 (9.2 / 82)
+generation stats = -0.000 +- 0.736
+loss = p:-0.001 v:0.007 ent:0.127 total:0.006
+updated model(3844)
+172700 172800 172900 173000 173100 
+epoch 345
+time 1625206392.1306002 2021-07-02_14-13-12
+win rate (total) = 0.604 (105.2 / 174)
+win rate (random) = 0.974 (95.5 / 98)
+win rate (rulebase) = 0.127 (9.7 / 76)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.143 total:0.007
+updated model(3855)
+173200 173300 173400 173500 173600 
+epoch 346
+time 1625206400.951822 2021-07-02_14-13-20
+win rate (total) = 0.549 (96.0 / 175)
+win rate (random) = 0.981 (85.3 / 87)
+win rate (rulebase) = 0.121 (10.7 / 88)
+generation stats = -0.000 +- 0.735
+loss = p:-0.000 v:0.007 ent:0.154 total:0.007
+updated model(3866)
+173700 173800 173900 174000 174100 
+epoch 347
+time 1625206409.7463934 2021-07-02_14-13-29
+win rate (total) = 0.546 (92.8 / 170)
+win rate (random) = 0.975 (78.0 / 80)
+win rate (rulebase) = 0.165 (14.8 / 90)
+generation stats = 0.000 +- 0.740
+loss = p:-0.001 v:0.007 ent:0.152 total:0.006
+updated model(3876)
+174200 174300 174400 174500 174600 
+epoch 348
+time 1625206419.331565 2021-07-02_14-13-39
+win rate (total) = 0.605 (104.0 / 172)
+win rate (random) = 0.991 (92.2 / 93)
+win rate (rulebase) = 0.150 (11.8 / 79)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.144 total:0.007
+updated model(3888)
+174700 174800 174900 175000 175100 
+epoch 349
+time 1625206428.7935529 2021-07-02_14-13-48
+win rate (total) = 0.558 (96.5 / 173)
+win rate (random) = 0.973 (91.5 / 94)
+win rate (rulebase) = 0.063 (5.0 / 79)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.125 total:0.006
+updated model(3900)
+175200 175300 175400 175500 175600 
+epoch 350
+time 1625206438.2939534 2021-07-02_14-13-58
+win rate (total) = 0.563 (96.8 / 172)
+win rate (random) = 0.964 (88.7 / 92)
+win rate (rulebase) = 0.102 (8.2 / 80)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.129 total:0.007
+updated model(3911)
+175700 175800 175900 176000 176100 
+epoch 351
+time 1625206447.6526124 2021-07-02_14-14-07
+win rate (total) = 0.534 (92.8 / 174)
+win rate (random) = 0.946 (84.2 / 89)
+win rate (rulebase) = 0.102 (8.7 / 85)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.151 total:0.007
+updated model(3923)
+176200 176300 176400 176500 176600 
+epoch 352
+time 1625206457.1562269 2021-07-02_14-14-17
+win rate (total) = 0.574 (95.8 / 167)
+win rate (random) = 0.965 (90.7 / 94)
+win rate (rulebase) = 0.071 (5.2 / 73)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.146 total:0.007
+updated model(3934)
+176700 176800 176900 177000 177100 
+epoch 353
+time 1625206467.3509912 2021-07-02_14-14-27
+win rate (total) = 0.564 (99.3 / 176)
+win rate (random) = 0.962 (92.3 / 96)
+win rate (rulebase) = 0.088 (7.0 / 80)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.131 total:0.007
+updated model(3947)
+177200 177300 177400 177500 177600 
+epoch 354
+time 1625206477.6758807 2021-07-02_14-14-37
+win rate (total) = 0.599 (104.2 / 174)
+win rate (random) = 0.961 (94.2 / 98)
+win rate (rulebase) = 0.132 (10.0 / 76)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.007 ent:0.132 total:0.007
+updated model(3959)
+177700 177800 177900 178000 178100 
+epoch 355
+time 1625206488.2127907 2021-07-02_14-14-48
+win rate (total) = 0.625 (109.3 / 175)
+win rate (random) = 0.929 (102.2 / 110)
+win rate (rulebase) = 0.110 (7.2 / 65)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.135 total:0.007
+updated model(3972)
+178200 178300 178400 178500 178600 
+epoch 356
+time 1625206498.1091683 2021-07-02_14-14-58
+win rate (total) = 0.550 (94.7 / 172)
+win rate (random) = 0.947 (86.2 / 91)
+win rate (rulebase) = 0.105 (8.5 / 81)
+generation stats = 0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.141 total:0.007
+updated model(3984)
+178700 178800 178900 179000 179100 
+epoch 357
+time 1625206506.9918847 2021-07-02_14-15-06
+win rate (total) = 0.544 (95.2 / 175)
+win rate (random) = 0.940 (86.5 / 92)
+win rate (rulebase) = 0.104 (8.7 / 83)
+generation stats = -0.000 +- 0.740
+loss = p:-0.000 v:0.007 ent:0.157 total:0.007
+updated model(3995)
+179200 179300 179400 179500 179600 
+epoch 358
+time 1625206515.6282918 2021-07-02_14-15-15
+win rate (total) = 0.533 (89.0 / 167)
+win rate (random) = 0.950 (79.8 / 84)
+win rate (rulebase) = 0.110 (9.2 / 83)
+generation stats = 0.000 +- 0.741
+loss = p:-0.000 v:0.007 ent:0.139 total:0.007
+updated model(4006)
+179700 179800 179900 180000 180100 
+epoch 359
+time 1625206524.957118 2021-07-02_14-15-24
+win rate (total) = 0.591 (101.7 / 172)
+win rate (random) = 0.973 (90.5 / 93)
+win rate (rulebase) = 0.141 (11.2 / 79)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.007 ent:0.135 total:0.007
+updated model(4015)
+180200 180300 180400 180500 180600 
+epoch 360
+time 1625206533.4768345 2021-07-02_14-15-33
+win rate (total) = 0.604 (105.2 / 174)
+win rate (random) = 0.960 (96.0 / 100)
+win rate (rulebase) = 0.124 (9.2 / 74)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.007 ent:0.131 total:0.006
+updated model(4025)
+180700 180800 180900 181000 181100 
+epoch 361
+time 1625206542.3629396 2021-07-02_14-15-42
+win rate (total) = 0.523 (89.5 / 171)
+win rate (random) = 0.940 (78.0 / 83)
+win rate (rulebase) = 0.131 (11.5 / 88)
+generation stats = -0.000 +- 0.735
+loss = p:-0.000 v:0.007 ent:0.125 total:0.007
+updated model(4036)
+181200 181300 181400 181500 181600 
+epoch 362
+time 1625206551.372783 2021-07-02_14-15-51
+win rate (total) = 0.575 (98.3 / 171)
+win rate (random) = 0.941 (90.3 / 96)
+win rate (rulebase) = 0.107 (8.0 / 75)
+generation stats = -0.000 +- 0.735
+loss = p:-0.000 v:0.007 ent:0.132 total:0.007
+updated model(4047)
+181700 181800 181900 182000 182100 
+epoch 363
+time 1625206560.6148908 2021-07-02_14-16-00
+win rate (total) = 0.539 (93.2 / 173)
+win rate (random) = 0.952 (82.8 / 87)
+win rate (rulebase) = 0.120 (10.3 / 86)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.007 ent:0.140 total:0.007
+updated model(4058)
+182200 182300 182400 182500 182600 
+epoch 364
+time 1625206569.7130618 2021-07-02_14-16-09
+win rate (total) = 0.599 (100.7 / 168)
+win rate (random) = 0.968 (90.0 / 93)
+win rate (rulebase) = 0.142 (10.7 / 75)
+generation stats = -0.000 +- 0.736
+loss = p:-0.000 v:0.007 ent:0.136 total:0.006
+updated model(4069)
+182700 182800 182900 183000 183100 
+epoch 365
+time 1625206581.0023074 2021-07-02_14-16-21
+win rate (total) = 0.511 (88.3 / 173)
+win rate (random) = 0.927 (77.8 / 84)
+win rate (rulebase) = 0.118 (10.5 / 89)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.007 ent:0.140 total:0.007
+updated model(4083)
+183200 183300 183400 183500 183600 
+epoch 366
+time 1625206591.18648 2021-07-02_14-16-31
+win rate (total) = 0.529 (92.5 / 175)
+win rate (random) = 0.961 (81.7 / 85)
+win rate (rulebase) = 0.120 (10.8 / 90)
+generation stats = -0.000 +- 0.737
+loss = p:-0.000 v:0.007 ent:0.134 total:0.006
+updated model(4095)
+183700 183800 183900 184000 
