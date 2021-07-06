@@ -1,0 +1,272 @@
+epoch 4855
+time 1625355633.0028508 2021-07-04_07-40-33
+win rate (total) = 0.779 (98.2 / 126)
+win rate (AgentBoilergoose) = 0.843 (27.8 / 33)
+win rate (AgentCrazyGoose) = 0.710 (19.2 / 27)
+win rate (AgentPubHRL) = 0.720 (15.8 / 22)
+win rate (AgentPubHRLLatest) = 0.823 (13.2 / 16)
+win rate (AgentStraightforwardBFS) = 0.792 (22.2 / 28)
+generation stats = 0.000 +- 0.739
+loss = p:-0.001 v:0.013 ent:0.323 total:0.012
+updated model(68592)
+2438100 2438200 2438300 2438400 2438500 
+epoch 4856
+time 1625355651.5627398 2021-07-04_07-40-51
+win rate (total) = 0.791 (99.7 / 126)
+win rate (AgentBoilergoose) = 0.773 (17.0 / 22)
+win rate (AgentCrazyGoose) = 0.790 (21.3 / 27)
+win rate (AgentPubHRL) = 0.795 (17.5 / 22)
+win rate (AgentPubHRLLatest) = 0.754 (15.8 / 21)
+win rate (AgentStraightforwardBFS) = 0.824 (28.0 / 34)
+generation stats = 0.000 +- 0.742
+loss = p:-0.000 v:0.013 ent:0.325 total:0.012
+updated model(68606)
+2438600 2438700 2438800 2438900 2439000 
+epoch 4857
+time 1625355667.89834 2021-07-04_07-41-07
+win rate (total) = 0.761 (94.3 / 124)
+win rate (AgentBoilergoose) = 0.840 (22.7 / 27)
+win rate (AgentCrazyGoose) = 0.742 (16.3 / 22)
+win rate (AgentPubHRL) = 0.730 (15.3 / 21)
+win rate (AgentPubHRLLatest) = 0.754 (14.3 / 19)
+win rate (AgentStraightforwardBFS) = 0.733 (25.7 / 35)
+generation stats = -0.000 +- 0.739
+loss = p:-0.001 v:0.013 ent:0.317 total:0.012
+updated model(68618)
+2439100 2439200 2439300 2439400 2439500 
+epoch 4858
+time 1625355685.1594586 2021-07-04_07-41-25
+win rate (total) = 0.761 (98.2 / 129)
+win rate (AgentBoilergoose) = 0.840 (21.0 / 25)
+win rate (AgentCrazyGoose) = 0.708 (19.8 / 28)
+win rate (AgentPubHRL) = 0.681 (15.7 / 23)
+win rate (AgentPubHRLLatest) = 0.712 (15.7 / 22)
+win rate (AgentStraightforwardBFS) = 0.839 (26.0 / 31)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.013 ent:0.319 total:0.012
+updated model(68631)
+2439600 2439700 2439800 2439900 2440000 
+epoch 4859
+time 1625355702.306325 2021-07-04_07-41-42
+win rate (total) = 0.738 (95.2 / 129)
+win rate (AgentBoilergoose) = 0.827 (20.7 / 25)
+win rate (AgentCrazyGoose) = 0.720 (20.2 / 28)
+win rate (AgentPubHRL) = 0.605 (11.5 / 19)
+win rate (AgentPubHRLLatest) = 0.773 (17.0 / 22)
+win rate (AgentStraightforwardBFS) = 0.738 (25.8 / 35)
+generation stats = -0.000 +- 0.740
+loss = p:-0.001 v:0.013 ent:0.320 total:0.012
+updated model(68645)
+2440100 2440200 2440300 2440400 2440500 
+epoch 4860
+time 1625355720.4837034 2021-07-04_07-42-00
+win rate (total) = 0.785 (96.5 / 123)
+win rate (AgentBoilergoose) = 0.808 (21.0 / 26)
+win rate (AgentCrazyGoose) = 0.728 (19.7 / 27)
+win rate (AgentPubHRL) = 0.739 (17.0 / 23)
+win rate (AgentPubHRLLatest) = 0.798 (11.2 / 14)
+win rate (AgentStraightforwardBFS) = 0.838 (27.7 / 33)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.013 ent:0.326 total:0.012
+updated model(68658)
+2440600 2440700 2440800 2440900 2441000 
+epoch 4861
+time 1625355737.5375645 2021-07-04_07-42-17
+win rate (total) = 0.751 (89.3 / 119)
+win rate (AgentBoilergoose) = 0.839 (24.3 / 29)
+win rate (AgentCrazyGoose) = 0.713 (20.7 / 29)
+win rate (AgentPubHRL) = 0.812 (13.0 / 16)
+win rate (AgentPubHRLLatest) = 0.618 (10.5 / 17)
+win rate (AgentStraightforwardBFS) = 0.744 (20.8 / 28)
+generation stats = -0.000 +- 0.738
+loss = p:-0.000 v:0.013 ent:0.324 total:0.012
+updated model(68671)
+2441100 2441200 2441300 2441400 2441500 
+epoch 4862
+time 1625355754.4115949 2021-07-04_07-42-34
+win rate (total) = 0.783 (97.8 / 125)
+win rate (AgentBoilergoose) = 0.867 (17.3 / 20)
+win rate (AgentCrazyGoose) = 0.720 (18.0 / 25)
+win rate (AgentPubHRL) = 0.697 (15.3 / 22)
+win rate (AgentPubHRLLatest) = 0.818 (18.0 / 22)
+win rate (AgentStraightforwardBFS) = 0.810 (29.2 / 36)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.013 ent:0.325 total:0.012
+updated model(68684)
+2441600 2441700 2441800 2441900 2442000 
+epoch 4863
+time 1625355771.468683 2021-07-04_07-42-51
+win rate (total) = 0.757 (96.8 / 128)
+win rate (AgentBoilergoose) = 0.840 (21.8 / 26)
+win rate (AgentCrazyGoose) = 0.724 (21.0 / 29)
+win rate (AgentPubHRL) = 0.648 (11.7 / 18)
+win rate (AgentPubHRLLatest) = 0.731 (13.2 / 18)
+win rate (AgentStraightforwardBFS) = 0.788 (29.2 / 37)
+generation stats = -0.000 +- 0.738
+loss = p:-0.001 v:0.013 ent:0.322 total:0.012
+updated model(68697)
+2442100 2442200 2442300 2442400 2442500 
+epoch 4864
+time 1625355789.0316055 2021-07-04_07-43-09
+win rate (total) = 0.768 (96.0 / 125)
+win rate (AgentBoilergoose) = 0.850 (17.0 / 20)
+win rate (AgentCrazyGoose) = 0.707 (17.7 / 25)
+win rate (AgentPubHRL) = 0.712 (18.5 / 26)
+win rate (AgentPubHRLLatest) = 0.803 (17.7 / 22)
+win rate (AgentStraightforwardBFS) = 0.786 (25.2 / 32)
+generation stats = 0.000 +- 0.741
+loss = p:-0.000 v:0.013 ent:0.325 total:0.012
+updated model(68711)
+2442600 2442700 2442800 2442900 2443000 
+epoch 4865
+time 1625355806.252921 2021-07-04_07-43-26
+win rate (total) = 0.740 (88.8 / 120)
+win rate (AgentBoilergoose) = 0.789 (23.7 / 30)
+win rate (AgentCrazyGoose) = 0.712 (15.7 / 22)
+win rate (AgentPubHRL) = 0.822 (12.3 / 15)
+win rate (AgentPubHRLLatest) = 0.632 (12.0 / 19)
+win rate (AgentStraightforwardBFS) = 0.740 (25.2 / 34)
+generation stats = 0.000 +- 0.740
+loss = p:-0.001 v:0.013 ent:0.321 total:0.012
+updated model(68724)
+2443100 2443200 2443300 2443400 2443500 
+epoch 4866
+time 1625355822.5077312 2021-07-04_07-43-42
+win rate (total) = 0.721 (90.2 / 125)
+win rate (AgentBoilergoose) = 0.807 (15.3 / 19)
+win rate (AgentCrazyGoose) = 0.756 (19.7 / 26)
+win rate (AgentPubHRL) = 0.689 (15.2 / 22)
+win rate (AgentPubHRLLatest) = 0.583 (11.7 / 20)
+win rate (AgentStraightforwardBFS) = 0.746 (28.3 / 38)
+generation stats = -0.000 +- 0.739
+loss = p:-0.000 v:0.013 ent:0.325 total:0.012
+updated model(68736)
+2443600 2443700 2443800 2443900 2444000 
+epoch 4867
+time 1625355838.953867 2021-07-04_07-43-58
+win rate (total) = 0.785 (97.3 / 124)
+win rate (AgentBoilergoose) = 0.833 (20.0 / 24)
+win rate (AgentCrazyGoose) = 0.724 (21.0 / 29)
+win rate (AgentPubHRL) = 0.735 (16.2 / 22)
+win rate (AgentPubHRLLatest) = 0.773 (17.0 / 22)
+win rate (AgentStraightforwardBFS) = 0.858 (23.2 / 27)
+generation stats = 0.000 +- 0.741
+loss = p:-0.000 v:0.013 ent:0.326 total:0.012
+updated model(68749)
+2444100 2444200 2444300 2444400 2444500 
+epoch 4868
+time 1625355857.1226943 2021-07-04_07-44-17
+win rate (total) = 0.773 (102.0 / 132)
+win rate (AgentBoilergoose) = 0.852 (30.7 / 36)
+win rate (AgentCrazyGoose) = 0.699 (18.2 / 26)
+win rate (AgentPubHRL) = 0.682 (15.0 / 22)
+win rate (AgentPubHRLLatest) = 0.825 (15.7 / 19)
+win rate (AgentStraightforwardBFS) = 0.776 (22.5 / 29)
+generation stats = 0.000 +- 0.740
+loss = p:-0.000 v:0.013 ent:0.328 total:0.012
+updated model(68763)
+2444600 2444700 2444800 2444900 2445000 
+epoch 4869
+time 1625355874.83127 2021-07-04_07-44-34
+win rate (total) = 0.750 (90.0 / 120)
+win rate (AgentBoilergoose) = 0.847 (20.3 / 24)
+win rate (AgentCrazyGoose) = 0.739 (17.0 / 23)
+win rate (AgentPubHRL) = 0.681 (15.7 / 23)
+win rate (AgentPubHRLLatest) = 0.731 (19.0 / 26)
+win rate (AgentStraightforwardBFS) = 0.750 (18.0 / 24)
+generation stats = 0.000 +- 0.742
+loss = p:-0.000 v:0.014 ent:0.337 total:0.013
+updated model(68776)
+2445100 2445200 2445300 2445400 2445500 
+epoch 4870
+time 1625355893.9001563 2021-07-04_07-44-53
+win rate (total) = 0.766 (101.2 / 132)
+win rate (AgentBoilergoose) = 0.825 (32.2 / 39)
+win rate (AgentCrazyGoose) = 0.736 (21.3 / 29)
+win rate (AgentPubHRL) = 0.759 (20.5 / 27)
+win rate (AgentPubHRLLatest) = 0.685 (12.3 / 18)
+win rate (AgentStraightforwardBFS) = 0.781 (14.8 / 19)
+generation stats = -0.000 +- 0.740
+loss = p:-0.001 v:0.013 ent:0.339 total:0.012
+updated model(68791)
+2445600 2445700 2445800 2445900 2446000 
+epoch 4871
+time 1625355912.974302 2021-07-04_07-45-12
+win rate (total) = 0.770 (101.7 / 132)
+win rate (AgentBoilergoose) = 0.893 (25.0 / 28)
+win rate (AgentCrazyGoose) = 0.750 (18.0 / 24)
+win rate (AgentPubHRL) = 0.667 (16.7 / 25)
+win rate (AgentPubHRLLatest) = 0.754 (15.8 / 21)
+win rate (AgentStraightforwardBFS) = 0.770 (26.2 / 34)
+generation stats = 0.000 +- 0.740
+loss = p:-0.001 v:0.013 ent:0.335 total:0.012
+updated model(68806)
+2446100 2446200 2446300 2446400 2446500 
+epoch 4872
+time 1625355932.7636104 2021-07-04_07-45-32
+win rate (total) = 0.780 (104.5 / 134)
+win rate (AgentBoilergoose) = 0.875 (21.0 / 24)
+win rate (AgentCrazyGoose) = 0.789 (26.8 / 34)
+win rate (AgentPubHRL) = 0.873 (14.8 / 17)
+win rate (AgentPubHRLLatest) = 0.640 (16.0 / 25)
+win rate (AgentStraightforwardBFS) = 0.760 (25.8 / 34)
+generation stats = -0.000 +- 0.741
+loss = p:-0.000 v:0.013 ent:0.334 total:0.012
+updated model(68821)
+2446600 2446700 2446800 2446900 2447000 
+epoch 4873
+time 1625355952.687552 2021-07-04_07-45-52
+win rate (total) = 0.828 (104.3 / 126)
+win rate (AgentBoilergoose) = 0.908 (26.3 / 29)
+win rate (AgentCrazyGoose) = 0.867 (17.3 / 20)
+win rate (AgentPubHRL) = 0.720 (15.8 / 22)
+win rate (AgentPubHRLLatest) = 0.753 (18.8 / 25)
+win rate (AgentStraightforwardBFS) = 0.867 (26.0 / 30)
+generation stats = 0.000 +- 0.741
+loss = p:-0.001 v:0.013 ent:0.324 total:0.011
+updated model(68836)
+2447100 2447200 2447300 2447400 2447500 
+epoch 4874
+time 1625355972.6187043 2021-07-04_07-46-12
+win rate (total) = 0.805 (103.0 / 128)
+win rate (AgentBoilergoose) = 0.882 (21.2 / 24)
+win rate (AgentCrazyGoose) = 0.905 (19.0 / 21)
+win rate (AgentPubHRL) = 0.760 (19.0 / 25)
+win rate (AgentPubHRLLatest) = 0.701 (16.8 / 24)
+win rate (AgentStraightforwardBFS) = 0.794 (27.0 / 34)
+generation stats = 0.000 +- 0.742
+loss = p:-0.000 v:0.013 ent:0.324 total:0.013
+updated model(68851)
+2447600 2447700 2447800 2447900 2448000 
+epoch 4875
+time 1625355991.566434 2021-07-04_07-46-31
+win rate (total) = 0.742 (95.7 / 129)
+win rate (AgentBoilergoose) = 0.883 (17.7 / 20)
+win rate (AgentCrazyGoose) = 0.808 (31.5 / 39)
+win rate (AgentPubHRL) = 0.660 (17.2 / 26)
+win rate (AgentPubHRLLatest) = 0.640 (12.2 / 19)
+win rate (AgentStraightforwardBFS) = 0.687 (17.2 / 25)
+generation stats = 0.000 +- 0.742
+loss = p:0.000 v:0.013 ent:0.324 total:0.012
+updated model(68866)
+2448100 2448200 2448300 2448400 2448500 
+epoch 4876
+time 1625356011.0951128 2021-07-04_07-46-51
+win rate (total) = 0.792 (101.3 / 128)
+win rate (AgentBoilergoose) = 0.867 (26.0 / 30)
+win rate (AgentCrazyGoose) = 0.833 (21.7 / 26)
+win rate (AgentPubHRL) = 0.616 (14.2 / 23)
+win rate (AgentPubHRLLatest) = 0.798 (15.2 / 19)
+win rate (AgentStraightforwardBFS) = 0.811 (24.3 / 30)
+generation stats = -0.000 +- 0.743
+loss = p:-0.001 v:0.013 ent:0.325 total:0.012
+updated model(68881)
+2448600 2448700 2448800 2448900 2449000 
+epoch 4877
+time 1625356030.5592608 2021-07-04_07-47-10
+win rate (total) = 0.826 (107.3 / 130)
+win rate (AgentBoilergoose) = 0.917 (18.3 / 20)
+win rate (AgentCrazyGoose) = 0.909 (30.0 / 33)
+win rate (AgentPubHRL) = 0.727 (16.0 / 22)
+win rate (AgentPubHRLLatest) = 0.735 (16.2 / 22)
+win rate (AgentStraightforwardBFS) = 0.813 (26.8 / 33)
